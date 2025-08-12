@@ -1,0 +1,12 @@
+| Task Name                          | Compliance Check                    | Compliance description                                                                                                        |
+|------------------------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Data Collection                    | Raw Data Acquisition                | Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs.           |
+| Metadata Management                | Metadata Storage and Tracking       | Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions.               |
+| Data Versioning                    | Version Control Implementation      | Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities. |
+| Anonymization and Privacy Handling | Sensitive Data Masking              | Check if the code masks or anonymizes sensitive data while preserving analytical utility.                                     |
+| Data Quality Checks                | Consistency and Integrity Checks    | Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing.                    |
+| Infrastructure Setup               | Deployment Platform Selection       | Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices).                                   |
+| Interpretability Analysis          | Model Explainability Implementation | Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions.                                |
+| Model Validation                   | Validation Set Performance Check    | Check if the code evaluates the model’s generalization ability using a validation set.                                        |
+| Model Hashing                      | Unique Model Identifier Generation  | Ensure the code generates unique identifiers (hashes) for each trained model version.                                         |
+| Performance Monitoring             | Model Performance Metric Tracking   | Verify if the code logs key metrics like accuracy, latency, and throughput in production.                                     |

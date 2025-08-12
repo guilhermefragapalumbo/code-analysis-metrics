@@ -1,0 +1,42 @@
+[
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Interpretability Analysis",
+        "Compliance Check": "Model Explainability Implementation",
+        "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+    },
+    {
+        "Task Name": "Performance Metric Calculation",
+        "Compliance Check": "Evaluation Metric Computation",
+        "Compliance description": "Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression."
+    },
+    {
+        "Task Name": "Error Analysis",
+        "Compliance Check": "Incorrect Prediction Analysis",
+        "Compliance description": "Check if the code identifies patterns in incorrect predictions and provides insights for improvement."
+    },
+    {
+        "Task Name": "Model Validation",
+        "Compliance Check": "Validation Set Performance Check",
+        "Compliance description": "Check if the code evaluates the model’s generalization ability using a validation set."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    }
+]

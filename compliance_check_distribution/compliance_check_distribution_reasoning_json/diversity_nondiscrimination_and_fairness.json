@@ -1,0 +1,47 @@
+[
+  {
+    "Task Name": "Data Collection",
+    "Compliance Check": "Raw Data Acquisition",
+    "Reasoning": "Acquiring raw data in a way that respects diversity and non-discrimination is crucial. The data should be representative of the diverse population the AI system will serve to avoid biases and ensure fairness."
+  },
+  {
+    "Task Name": "Data Labeling",
+    "Compliance Check": "Annotation Mechanism",
+    "Reasoning": "The process of data labeling should be done in a way that respects diversity and non-discrimination. The labels should be fair and unbiased, reflecting the diverse population the AI system will serve."
+  },
+  {
+    "Task Name": "Handling Imbalanced Data",
+    "Compliance Check": "Class Balance Techniques",
+    "Reasoning": "Imbalanced data can lead to biased AI models. Class balance techniques are used to ensure that all classes in the data are equally represented, promoting fairness and non-discrimination."
+  },
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Compliance Check": "Sensitive Data Masking",
+    "Reasoning": "Ensuring privacy and anonymization of data is a key aspect of fairness. It ensures that individuals' sensitive information is not used in a discriminatory manner."
+  },
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Reasoning": "Bias and fairness testing directly operationalizes the principle of diversity, non-discrimination, and fairness. It involves detecting and mitigating any biases in the AI system to ensure it treats all users fairly."
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Compliance Check": "Model Explainability Implementation",
+    "Reasoning": "Interpretability of an AI system is crucial for fairness. It allows stakeholders to understand how the system is making decisions, ensuring it is not discriminating against certain groups."
+  },
+  {
+    "Task Name": "Handling Class Imbalances",
+    "Compliance Check": "Balanced Training Strategy",
+    "Reasoning": "Similar to handling imbalanced data, handling class imbalances during training is crucial for fairness. It ensures that the AI system is not biased towards the majority class and treats all classes equally."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Reasoning": "Data drift detection ensures that the AI system continues to be fair and non-discriminatory over time. It involves monitoring the input data distribution to detect any changes that could introduce bias."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Reasoning": "Concept drift detection is important for maintaining fairness. It involves detecting changes in the relationship between the input data and the target variable, which could indicate the introduction of bias."
+  }
+]

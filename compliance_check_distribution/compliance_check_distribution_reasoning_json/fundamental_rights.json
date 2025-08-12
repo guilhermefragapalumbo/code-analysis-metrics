@@ -1,0 +1,37 @@
+[
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Compliance Check": "Sensitive Data Masking",
+    "Reasoning": "This task directly supports the principle of fundamental rights by ensuring that sensitive data is appropriately masked, thereby protecting individuals' privacy rights. This is particularly important in the context of AI systems, which often handle large amounts of personal data."
+  },
+  {
+    "Task Name": "Security Measures",
+    "Compliance Check": "Authentication & Encryption Checks",
+    "Reasoning": "Security measures are essential to protect the fundamental rights of individuals. Authentication and encryption checks ensure that data is accessed only by authorized individuals and that it is securely transmitted and stored, thereby protecting the rights to privacy and data protection."
+  },
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Reasoning": "Bias and fairness testing directly supports the principle of fundamental rights by ensuring that AI systems do not discriminate against certain groups or individuals. This is crucial for upholding the rights to equality and non-discrimination."
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Compliance Check": "Model Explainability Implementation",
+    "Reasoning": "Interpretability in AI systems is crucial for respecting individuals' rights to information and explanation. By ensuring that AI systems are interpretable, we can provide meaningful information about the logic, significance, and consequences of the AI system, thereby upholding these fundamental rights."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Reasoning": "Planning for incidents, including model failures and security breaches, is a crucial aspect of protecting fundamental rights. By having a plan in place, we can ensure a swift response to mitigate any negative impacts on individuals' rights, such as privacy and data protection rights."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Reasoning": "Data drift detection can indirectly support fundamental rights by ensuring that changes in the input data distribution do not lead to discriminatory or unfair outcomes. By monitoring these changes, we can identify and address potential issues early on, thereby safeguarding individuals' rights."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Reasoning": "Anomaly detection can support the principle of fundamental rights by identifying and flagging unexpected predictions that could potentially infringe on individuals' rights. This allows for timely intervention and mitigation of any negative impacts."
+  }
+]

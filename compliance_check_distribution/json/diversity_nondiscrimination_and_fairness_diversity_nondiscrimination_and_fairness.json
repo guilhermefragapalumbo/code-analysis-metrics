@@ -1,0 +1,47 @@
+[
+    {
+        "Task Name": "Data Collection",
+        "Compliance Check": "Raw Data Acquisition",
+        "Compliance description": "Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+    },
+    {
+        "Task Name": "Data Labeling",
+        "Compliance Check": "Annotation Mechanism",
+        "Compliance description": "Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling."
+    },
+    {
+        "Task Name": "Handling Imbalanced Data",
+        "Compliance Check": "Class Balance Techniques",
+        "Compliance description": "Ensure the code implements oversampling, undersampling, or synthetic data generation (e.g., SMOTE)."
+    },
+    {
+        "Task Name": "Anonymization and Privacy Handling",
+        "Compliance Check": "Sensitive Data Masking",
+        "Compliance description": "Check if the code masks or anonymizes sensitive data while preserving analytical utility."
+    },
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Interpretability Analysis",
+        "Compliance Check": "Model Explainability Implementation",
+        "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+    },
+    {
+        "Task Name": "Handling Class Imbalances",
+        "Compliance Check": "Balanced Training Strategy",
+        "Compliance description": "Verify if the code adjusts class weights or applies cost-sensitive learning methods."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Concept Drift Detection",
+        "Compliance Check": "Target Relationship Change Detection",
+        "Compliance description": "Ensure the code monitors changes in the relationship between input features and target labels."
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Interpretability Analysis",
+        "Compliance Check": "Model Explainability Implementation",
+        "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+    },
+    {
+        "Task Name": "Anomaly Detection",
+        "Compliance Check": "Unexpected Prediction Flagging",
+        "Compliance description": "Check if the code includes mechanisms to detect and flag unexpected predictions."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    },
+    {
+        "Task Name": "Explainability Features",
+        "Compliance Check": "Model Interpretability Tools",
+        "Compliance description": "Check if the code incorporates tools like SHAP, LIME, or attention mechanisms to explain model decisions."
+    },
+    {
+        "Task Name": "Model Retraining Scheduling",
+        "Compliance Check": "Automated Model Retraining Pipeline",
+        "Compliance description": "Verify if the code automates retraining based on performance decay or data updates."
+    },
+    {
+        "Task Name": "Logging and Debugging",
+        "Compliance Check": "Prediction & Failure Logging",
+        "Compliance description": "Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+    }
+]

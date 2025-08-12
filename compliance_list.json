@@ -1,0 +1,347 @@
+[
+  {
+    "Task Name": "Data Collection",
+    "Compliance Check": "Raw Data Acquisition",
+    "Compliance description": "Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+  },
+  {
+    "Task Name": "Data Extraction",
+    "Compliance Check": "Data Retrieval Implementation",
+    "Compliance description": "Verify if the code includes logic to extract data from structured (CSV, SQL databases) and unstructured (PDFs, images, text) sources."
+  },
+  {
+    "Task Name": "Data Integration",
+    "Compliance Check": "Multi-Source Data Merging",
+    "Compliance description": "Assess whether the code includes functionality to merge multiple data sources while resolving inconsistencies."
+  },
+  {
+    "Task Name": "Streaming Data Handling",
+    "Compliance Check": "Real-Time Data Ingestion",
+    "Compliance description": "Determine if the code implements handling of real-time data streams from IoT devices, event-driven systems, or streaming platforms."
+  },
+  {
+    "Task Name": "Batch Data Handling",
+    "Compliance Check": "Batch Processing Implementation",
+    "Compliance description": "Check if the code supports batch processing mechanisms for large-scale data ingestion."
+  },
+  {
+    "Task Name": "Data Labeling",
+    "Compliance Check": "Annotation Mechanism",
+    "Compliance description": "Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling."
+  },
+  {
+    "Task Name": "Metadata Management",
+    "Compliance Check": "Metadata Storage and Tracking",
+    "Compliance description": "Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions."
+  },
+  {
+    "Task Name": "Data Versioning",
+    "Compliance Check": "Version Control Implementation",
+    "Compliance description": "Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+  },
+  {
+    "Task Name": "Schema Validation",
+    "Compliance Check": "Schema Conformance Check",
+    "Compliance description": "Check if the code validates incoming data against predefined formats and structures to ensure compliance."
+  },
+  {
+    "Task Name": "Data Storage Strategy",
+    "Compliance Check": "Storage Selection and Implementation",
+    "Compliance description": "Evaluate whether the code correctly implements storage solutions, such as data lakes, warehouses, or distributed systems, based on requirements."
+  },
+  {
+    "Task Name": "Remove Duplicates",
+    "Compliance Check": "Duplicate Record Removal",
+    "Compliance description": "Check if the code implements logic to identify and remove duplicate records from the dataset."
+  },
+  {
+    "Task Name": "Fix Corrupt Records",
+    "Compliance Check": "Corrupt Data Handling",
+    "Compliance description": "Verify if the code includes mechanisms to detect and correct or remove corrupt records."
+  },
+  {
+    "Task Name": "Handle Missing Values",
+    "Compliance Check": "Missing Data Management",
+    "Compliance description": "Ensure the code handles missing values through imputation or removal."
+  },
+  {
+    "Task Name": "Data Normalization/Scaling",
+    "Compliance Check": "Numerical Data Scaling",
+    "Compliance description": "Check if the code normalizes or standardizes numerical data (e.g., Min-Max scaling, Z-score normalization)."
+  },
+  {
+    "Task Name": "Feature Engineering",
+    "Compliance Check": "Feature Creation",
+    "Compliance description": "Assess whether the code derives meaningful new features from raw data."
+  },
+  {
+    "Task Name": "Feature Selection",
+    "Compliance Check": "Dimensionality Reduction",
+    "Compliance description": "Verify if the code includes methods to retain only the most important features."
+  },
+  {
+    "Task Name": "Data Encoding",
+    "Compliance Check": "Categorical Variable Encoding",
+    "Compliance description": "Check if categorical variables are converted into numerical formats (e.g., one-hot encoding, label encoding)."
+  },
+  {
+    "Task Name": "Handling Imbalanced Data",
+    "Compliance Check": "Class Balance Techniques",
+    "Compliance description": "Ensure the code implements oversampling, undersampling, or synthetic data generation (e.g., SMOTE)."
+  },
+  {
+    "Task Name": "Data Augmentation",
+    "Compliance Check": "Synthetic Data Generation",
+    "Compliance description": "Assess if the code applies transformations (e.g., image flipping, text paraphrasing) to expand the dataset."
+  },
+  {
+    "Task Name": "Data Transformation",
+    "Compliance Check": "Data Type and Format Adjustments",
+    "Compliance description": "Verify if the code correctly converts data types, parses timestamps, or applies transformations like log scaling."
+  },
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Compliance Check": "Sensitive Data Masking",
+    "Compliance description": "Check if the code masks or anonymizes sensitive data while preserving analytical utility."
+  },
+  {
+    "Task Name": "Data Splitting",
+    "Compliance Check": "Dataset Partitioning",
+    "Compliance description": "Ensure that the code properly splits data into training, validation, and test sets while maintaining fair distribution."
+  },
+  {
+    "Task Name": "Outlier Detection and Treatment",
+    "Compliance Check": "Anomaly Identification",
+    "Compliance description": "Verify if the code detects and processes outliers using statistical or ML-based methods."
+  },
+  {
+    "Task Name": "Data Quality Checks",
+    "Compliance Check": "Consistency and Integrity Checks",
+    "Compliance description": "Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing."
+  },
+  {
+    "Task Name": "Model Selection",
+    "Compliance Check": "Algorithm Choice Implementation",
+    "Compliance description": "Check if the code includes logic to select the best algorithm (e.g., decision trees, neural networks, transformers) for the task."
+  },
+  {
+    "Task Name": "Defining Loss Functions and Optimizers",
+    "Compliance Check": "Loss Function & Optimizer Selection",
+    "Compliance description": "Verify if the code properly defines loss functions (e.g., MSE, cross-entropy) and optimization methods (SGD, Adam)."
+  },
+  {
+    "Task Name": "Hyperparameter Initialization",
+    "Compliance Check": "Hyperparameter Setup",
+    "Compliance description": "Ensure the code initializes default values for key hyperparameters such as learning rate, batch size, and regularization."
+  },
+  {
+    "Task Name": "Data Pipeline Optimization",
+    "Compliance Check": "Training Data Pipeline Efficiency",
+    "Compliance description": "Check if the code optimizes data loading, preprocessing, and augmentation for training."
+  },
+  {
+    "Task Name": "Model Training",
+    "Compliance Check": "Training Process Implementation",
+    "Compliance description": "Assess if the code includes proper logic to train the selected model on the dataset."
+  },
+  {
+    "Task Name": "Hyperparameter Optimization",
+    "Compliance Check": "Automated Hyperparameter Tuning",
+    "Compliance description": "Verify if the code implements grid search, random search, or Bayesian optimization for fine-tuning."
+  },
+  {
+    "Task Name": "Cross-validation",
+    "Compliance Check": "Model Generalization Testing",
+    "Compliance description": "Ensure the code correctly splits data into multiple subsets for cross-validation."
+  },
+  {
+    "Task Name": "Regularization Techniques",
+    "Compliance Check": "Overfitting Prevention Methods",
+    "Compliance description": "Check if the code includes dropout, L1/L2 regularization, or batch normalization to improve generalization."
+  },
+  {
+    "Task Name": "Parallelization and Distributed Training",
+    "Compliance Check": "Scalable Training Implementation",
+    "Compliance description": "Assess if the code utilizes GPUs, TPUs, or cloud-based clusters to enhance training efficiency."
+  },
+  {
+    "Task Name": "Handling Class Imbalances",
+    "Compliance Check": "Balanced Training Strategy",
+    "Compliance description": "Verify if the code adjusts class weights or applies cost-sensitive learning methods."
+  },
+  {
+    "Task Name": "Explainability Features",
+    "Compliance Check": "Model Interpretability Tools",
+    "Compliance description": "Check if the code incorporates tools like SHAP, LIME, or attention mechanisms to explain model decisions."
+  },
+  {
+    "Task Name": "Performance Metric Calculation",
+    "Compliance Check": "Evaluation Metric Computation",
+    "Compliance description": "Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression."
+  },
+  {
+    "Task Name": "Confusion Matrix Analysis",
+    "Compliance Check": "Classification Error Analysis",
+    "Compliance description": "Verify if the code includes logic to compute and analyze the confusion matrix to assess false positives and false negatives."
+  },
+  {
+    "Task Name": "Precision-Recall and ROC Curve Analysis",
+    "Compliance Check": "Precision-Recall & ROC Evaluation",
+    "Compliance description": "Ensure the code calculates and visualizes precision-recall and ROC curves to measure model trade-offs."
+  },
+  {
+    "Task Name": "Error Analysis",
+    "Compliance Check": "Incorrect Prediction Analysis",
+    "Compliance description": "Check if the code identifies patterns in incorrect predictions and provides insights for improvement."
+  },
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Compliance Check": "Model Explainability Implementation",
+    "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+  },
+  {
+    "Task Name": "Benchmarking Against Baselines",
+    "Compliance Check": "Performance Comparison",
+    "Compliance description": "Ensure the code compares model performance against traditional baselines or industry standards."
+  },
+  {
+    "Task Name": "Model A/B Testing",
+    "Compliance Check": "Feature Impact Testing",
+    "Compliance description": "Check if the code allows for testing feature modifications to study their impact on model performance."
+  },
+  {
+    "Task Name": "Uncertainty Estimation",
+    "Compliance Check": "Confidence & Uncertainty Measures",
+    "Compliance description": "Verify if the code includes methods such as Bayesian inference or dropout-based uncertainty estimation."
+  },
+  {
+    "Task Name": "Cross-Validation",
+    "Compliance Check": "Cross-Validation Implementation",
+    "Compliance description": "Ensure that the code applies cross-validation techniques to assess model performance robustness."
+  },
+  {
+    "Task Name": "Model Validation",
+    "Compliance Check": "Validation Set Performance Check",
+    "Compliance description": "Check if the code evaluates the model’s generalization ability using a validation set."
+  },
+  {
+    "Task Name": "Model Serialization",
+    "Compliance Check": "Deployable Model Format Check",
+    "Compliance description": "Verify if the code serializes the trained model into a deployable format (e.g., Pickle, ONNX, TensorFlow SavedModel)."
+  },
+  {
+    "Task Name": "Experiment Tracking",
+    "Compliance Check": "Hyperparameter & Metric Logging",
+    "Compliance description": "Check if the code logs hyperparameters, metrics, and model configurations for reproducibility."
+  },
+  {
+    "Task Name": "Model Hashing",
+    "Compliance Check": "Unique Model Identifier Generation",
+    "Compliance description": "Ensure the code generates unique identifiers (hashes) for each trained model version."
+  },
+  {
+    "Task Name": "Model Registry Management",
+    "Compliance Check": "Version-Controlled Model Storage",
+    "Compliance description": "Verify if the code stores models in a registry like MLflow or ModelDB for version control."
+  },
+  {
+    "Task Name": "Deployment Compatibility Testing",
+    "Compliance Check": "Environment Compatibility Validation",
+    "Compliance description": "Check if the code ensures model compatibility with different deployment environments."
+  },
+  {
+    "Task Name": "Version Comparison",
+    "Compliance Check": "New vs. Old Model Performance Check",
+    "Compliance description": "Ensure the code includes logic to compare new model versions against previous versions before deployment."
+  },
+  {
+    "Task Name": "Infrastructure Setup",
+    "Compliance Check": "Deployment Platform Selection",
+    "Compliance description": "Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices)."
+  },
+  {
+    "Task Name": "Containerization",
+    "Compliance Check": "Containerized Model Deployment",
+    "Compliance description": "Check if the code includes Docker or Kubernetes for deploying the model in a containerized environment."
+  },
+  {
+    "Task Name": "API Integration",
+    "Compliance Check": "Model API Development",
+    "Compliance description": "Ensure the code builds REST or gRPC APIs for serving predictions."
+  },
+  {
+    "Task Name": "Serverless Deployment",
+    "Compliance Check": "Serverless Model Hosting",
+    "Compliance description": "Verify if the code deploys the model using AWS Lambda, Google Cloud Functions, or Azure Functions."
+  },
+  {
+    "Task Name": "Scalability Planning",
+    "Compliance Check": "Load Balancing & Autoscaling",
+    "Compliance description": "Check if the code includes autoscaling or load balancing to handle high-demand scenarios."
+  },
+  {
+    "Task Name": "Security Measures",
+    "Compliance Check": "Authentication & Encryption Checks",
+    "Compliance description": "Ensure the code implements authentication, authorization, and encryption for model security."
+  },
+  {
+    "Task Name": "Deployment A/B Testing",
+    "Compliance Check": "Parallel Model Version Testing",
+    "Compliance description": "Verify if the code deploys multiple model versions simultaneously for performance comparison."
+  },
+  {
+    "Task Name": "Latency Optimization",
+    "Compliance Check": "Inference Speed Enhancement",
+    "Compliance description": "Check if the code uses techniques like quantization, pruning, or hardware acceleration to optimize latency."
+  },
+  {
+    "Task Name": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "Compliance Check": "Automated Deployment Pipeline",
+    "Compliance description": "Ensure the code includes CI/CD mechanisms to automate model deployment and updates."
+  },
+  {
+    "Task Name": "Performance Monitoring",
+    "Compliance Check": "Model Performance Metric Tracking",
+    "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Compliance description": "Ensure the code monitors changes in the relationship between input features and target labels."
+  },
+  {
+    "Task Name": "Model Retraining Scheduling",
+    "Compliance Check": "Automated Model Retraining Pipeline",
+    "Compliance description": "Verify if the code automates retraining based on performance decay or data updates."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Compliance description": "Check if the code includes mechanisms to detect and flag unexpected predictions."
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Compliance Check": "Prediction & Failure Logging",
+    "Compliance description": "Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+  },
+  {
+    "Task Name": "Resource Monitoring",
+    "Compliance Check": "System Resource Usage Tracking",
+    "Compliance description": "Check if the code tracks CPU, memory, and storage usage for optimization."
+  }
+]

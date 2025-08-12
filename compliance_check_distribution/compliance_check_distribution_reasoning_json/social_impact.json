@@ -1,0 +1,37 @@
+[
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Reasoning": "Bias in AI systems can lead to unfair outcomes, which can negatively impact social relationships and wellbeing. By testing for and mitigating bias, we ensure that the AI system treats all individuals and groups fairly, thereby minimizing negative social impact."
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Compliance Check": "Model Explainability Implementation",
+    "Reasoning": "Interpretable AI systems allow users to understand and trust the system's decisions, which can enhance social relationships and wellbeing. If users cannot understand how a system is making decisions, it could lead to mistrust and social tension, thereby negatively impacting social impact."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Reasoning": "Anomaly detection can help identify when the AI system is behaving unexpectedly, which could indicate a potential negative social impact. By flagging these anomalies, we can investigate and mitigate any potential negative social impacts before they occur."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Reasoning": "Changes in the distribution of input data over time can lead to changes in the AI system's behavior, which could negatively impact social relationships and wellbeing. By monitoring for data drift, we can ensure that the AI system continues to behave as expected and minimize any potential negative social impact."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Reasoning": "Changes in the relationship between input data and the target variable over time can lead to changes in the AI system's behavior, which could negatively impact social relationships and wellbeing. By monitoring for concept drift, we can ensure that the AI system continues to behave as expected and minimize any potential negative social impact."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Reasoning": "Incident response planning ensures that any failures or security breaches in the AI system are handled quickly and effectively, minimizing any potential negative social impact. Failures or breaches could lead to mistrust and social tension, so it is important to have a plan in place to address these issues."
+  },
+  {
+    "Task Name": "Performance Monitoring",
+    "Compliance Check": "Model Performance Metric Tracking",
+    "Reasoning": "Performance monitoring ensures that the AI system continues to perform as expected, minimizing any potential negative social impact. If the system's performance degrades, it could lead to unfair outcomes or mistrust, which could negatively impact social relationships and wellbeing."
+  }
+]

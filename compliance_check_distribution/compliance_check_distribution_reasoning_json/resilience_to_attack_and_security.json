@@ -1,0 +1,37 @@
+[
+  {
+    "Task Name": "Security Measures",
+    "Compliance Check": "Authentication & Encryption Checks",
+    "Reasoning": "The implementation of security measures such as authentication and encryption checks directly supports the principle of resilience to attack and security. Authentication prevents unauthorized access to the AI system, while encryption protects sensitive data from being intercepted during transmission. These measures reduce the risk of data poisoning and system exploitation."
+  },
+  {
+    "Task Name": "Infrastructure Setup",
+    "Compliance Check": "Deployment Platform Selection",
+    "Reasoning": "The selection of a secure deployment platform is crucial to protect the AI system from attacks targeting the underlying infrastructure. A secure platform will have built-in mechanisms to prevent and mitigate attacks, ensuring system resilience."
+  },
+  {
+    "Task Name": "Containerization",
+    "Compliance Check": "Containerized Model Deployment",
+    "Reasoning": "Containerization isolates the AI system in a separate environment, limiting the potential attack surface and reducing the risk of system exploitation. It supports the principle of resilience to attack and security by preventing potential attacks on the system's infrastructure."
+  },
+  {
+    "Task Name": "Data Storage Strategy",
+    "Compliance Check": "Storage Selection and Implementation",
+    "Reasoning": "The selection and implementation of secure data storage strategies are essential to protect the AI system from data poisoning attacks. Secure storage systems prevent unauthorized access and modification of data, ensuring the integrity and reliability of the AI system's decisions."
+  },
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Compliance Check": "Sensitive Data Masking",
+    "Reasoning": "Masking sensitive data through anonymization and privacy handling techniques can prevent data leakage and protect the AI system from attacks that exploit sensitive information. This supports the principle of resilience to attack and security by ensuring data privacy and integrity."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Reasoning": "Having a plan for responding to incidents, including potential attacks, directly supports the principle of resilience to attack and security. This ensures that any attacks or failures are handled promptly and effectively, minimizing potential damage and ensuring the system's continued operation."
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Compliance Check": "Prediction & Failure Logging",
+    "Reasoning": "Logging and debugging activities can help identify potential security vulnerabilities and monitor system behavior for signs of attacks. This supports the principle of resilience to attack and security by enabling early detection and mitigation of attacks."
+  }
+]
