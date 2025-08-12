@@ -4,9 +4,9 @@ Each stage builds upon the previous one to form a comprehensive architecture cap
 
 (1) AI Lifecycle Stage Identification
 
-![Alt text](images/circular_pipeline.png)
+![Alt text](images/circular_pipeline.jpg)
 
 ou
 
-![Alt text](images/pipeline.png)
+![Alt text](images/pipeline.jpg)
 
