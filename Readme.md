@@ -5,55 +5,35 @@ The methodology consists of five sequential stages: (1) AI Lifecycle Stage Ident
 Each stage builds upon the previous one to form a comprehensive architecture capable of producing objective, interpretable, and quantifiable metrics grounded in ethical principles, grounded in both AI development best practices and the Ethics Guidelines for Trustworthy AI.
 
 
-
-<div style="display: flex; gap: 15px; justify-content: center; margin: 20px 0;">
-  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" 
-     style="
-       background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-       color: white;
-       padding: 12px 30px;
-       border-radius: 30px;
-       text-align: center;
-       text-decoration: none;
-       font-weight: 600;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       box-shadow: 0 4px 12px rgba(37, 117, 252, 0.4);
-       transition: background 0.3s ease, box-shadow 0.3s ease;
-     "
-     onmouseover="this.style.background='linear-gradient(135deg, #4e07b7 0%, #1a5edd 100%)'; this.style.boxShadow='0 6px 20px rgba(30, 94, 221, 0.6)';"
-     onmouseout="this.style.background='linear-gradient(135deg, #6a11cb 0%, #2575fc 100%)'; this.style.boxShadow='0 4px 12px rgba(37, 117, 252, 0.4)';"
-  >
+<div style="display: flex; gap: 10px;">
+  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" style="background-color: #007BFF; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
     AI Act
   </a>
-
-  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" 
-     style="
-       background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
-       color: white;
-       padding: 12px 30px;
-       border-radius: 30px;
-       text-align: center;
-       text-decoration: none;
-       font-weight: 600;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       box-shadow: 0 4px 12px rgba(255, 75, 43, 0.4);
-       transition: background 0.3s ease, box-shadow 0.3s ease;
-     "
-     onmouseover="this.style.background='linear-gradient(135deg, #d83655 0%, #d63b2e 100%)'; this.style.boxShadow='0 6px 20px rgba(214, 59, 46, 0.6)';"
-     onmouseout="this.style.background='linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%)'; this.style.boxShadow='0 4px 12px rgba(255, 75, 43, 0.4)';"
-  >
+  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" style="background-color: #28A745; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
     Ethics Guideline for Trustworthy AI
   </a>
 </div>
 
 
+
 ## (1) AI Lifecycle Stage Identification
 
+Seven stages were identified that capture the end-to-end lifecycle of AI system development (represented in the Figure below):
+
+| Stage                       | Description                                                                                                                              |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Data Ingestion and Versioning** | Collection and management of raw data, integrating it from various systems, and applying appropriate version control ensuring data traceability and reproducibility. |
+| **Data Preprocessing**       | Cleaning, transforming, and preparing data for training. Tasks may include outlier removal, feature encoding, and handling missing values. |
+| **Model Training and Tuning**| Learning algorithms are applied to data, and models are developed and trained. Tasks include hyperparameter optimization, regularization, and validation splits. |
+| **Model Evaluation**         | Validating model performance using appropriate metrics.                                                                                  |
+| **Model Versioning**         | As models are updated and retrained, versioning ensures changes are tracked and documented, managing different model versions.            |
+| **Model Deployment**         | Integrating the model into production environments. This may involve wrapping models in APIs, ensuring infrastructure compatibility, and conducting deployment testing. |
+| **Monitoring and Maintenance** | Ongoing observation and updates to the model post-deployment.                                                                            |
 
 
 ![Alt text](images/circular_pipeline.jpg)
 
-ou
+or
 
 ![Alt text](images/pipeline.jpg)
 
@@ -79,3 +59,20 @@ ou
 
 ## (4) Compliance Checks Distribution
 
+Example: Accountability Auditability
+
+| Task Name | Compliance Check | Reasoning |
+|-----------|------------------|-----------|
+| Metadata Management | Metadata Storage and Tracking | Metadata management directly supports auditability by providing a clear, structured record of the data used in an AI system. This allows auditors to understand the sources, types, and characteristics of the data, which is crucial for assessing the fairness, accuracy, and reliability of the system. |
+| Data Versioning | Version Control Implementation | Data versioning is essential for auditability as it allows for the tracking of changes made to the data over time. This is crucial for understanding how the AI system's performance and behavior may have been influenced by changes in the data. |
+| Schema Validation | Schema Conformance Check | Schema validation ensures that the data adheres to a predefined schema, which is important for auditability. This allows auditors to understand the structure and format of the data, and to check that the data has been processed and used correctly. |
+| Data Quality Checks | Consistency and Integrity Checks | Data quality checks are key to auditability as they ensure the integrity and consistency of the data. This allows auditors to assess the quality of the data and to understand any potential issues or biases that may affect the AI system's performance. |
+| Performance Metric Calculation | Evaluation Metric Computation | The calculation of performance metrics allows auditors to assess the effectiveness and accuracy of the AI system. This is crucial for auditability as it provides a quantitative measure of the system's performance. |
+
+| Task Name | Compliance Check | Compliance Description |
+|-----------|------------------|------------------------|
+| Metadata Management | Metadata Storage and Tracking | Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions. |
+| Data Versioning | Version Control Implementation | Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities. |
+| Schema Validation | Schema Conformance Check | Check if the code validates incoming data against predefined formats and structures to ensure compliance. |
+| Data Quality Checks | Consistency and Integrity Checks | Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing. |
+| Performance Metric Calculation | Evaluation Metric Computation | Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression. |
