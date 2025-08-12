@@ -1,19 +1,9 @@
 # Towards Measurable Ethics: A Framework for AI Ethical Compliance Metrics
-### by Guilherme Palumbo
+*by Guilherme Palumbo*  
+*PhD Candidate at University of Minho* 
 
 The methodology consists of five sequential stages: (1) AI Lifecycle Stage Identification, (2) Tasks Definition, (3) Compliance List Development, (4) Compliance Checks Distribution, and (5) Metrics Creation. 
-Each stage builds upon the previous one to form a comprehensive architecture capable of producing objective, interpretable, and quantifiable metrics grounded in ethical principles, grounded in both AI development best practices and the Ethics Guidelines for Trustworthy AI.
-
-
-<div style="display: flex; gap: 10px;">
-  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" style="background-color: #007BFF; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    AI Act
-  </a>
-  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" style="background-color: #28A745; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    Ethics Guideline for Trustworthy AI
-  </a>
-</div>
-
+Each stage builds upon the previous one to form a comprehensive architecture capable of producing objective, interpretable, and quantifiable metrics based on ethical principles, focused on AI development best practices, the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) and the [Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
 
 
 ## (1) AI Lifecycle Stage Identification
@@ -47,6 +37,8 @@ or
 | Streaming Data Handling | Manage real-time ingestion from IoT devices, event-driven systems, or streaming platforms. | Data Ingestion & Versioning |
 | Batch Data Handling | Process large amounts of data in scheduled or on-demand batches. | Data Ingestion & Versioning |
 
+*Table continues... See the full table [here](./(2)%20tasks_definition/tasks_definition.md)*
+
 ## (3) Compliance List Development
 
 | Task Name | Compliance Check | Compliance Description |
@@ -56,6 +48,8 @@ or
 | Data Integration | Multi-Source Data Merging | Assess whether the code includes functionality to merge multiple data sources while resolving inconsistencies. |
 | Streaming Data Handling | Real-Time Data Ingestion | Determine if the code implements handling of real-time data streams from IoT devices, event-driven systems, or streaming platforms. |
 | Batch Data Handling | Batch Processing Implementation | Check if the code supports batch processing mechanisms for large-scale data ingestion. |
+
+*Table continues... See the full table [here](./(3)%20compliance_check_development/compliance_list.md)*
 
 ## (4) Compliance Checks Distribution
 
@@ -76,3 +70,5 @@ Example: Accountability Auditability
 | Schema Validation | Schema Conformance Check | Check if the code validates incoming data against predefined formats and structures to ensure compliance. |
 | Data Quality Checks | Consistency and Integrity Checks | Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing. |
 | Performance Metric Calculation | Evaluation Metric Computation | Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression. |
+
+*Table continues... See the all the tables [here]((4) compliance_check_distribution\compliance_check_distribution_reasoning_markdown)*
