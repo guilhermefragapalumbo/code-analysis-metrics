@@ -63,6 +63,8 @@ Example: Accountability Auditability
 | Data Quality Checks | Consistency and Integrity Checks | Data quality checks are key to auditability as they ensure the integrity and consistency of the data. This allows auditors to assess the quality of the data and to understand any potential issues or biases that may affect the AI system's performance. |
 | Performance Metric Calculation | Evaluation Metric Computation | The calculation of performance metrics allows auditors to assess the effectiveness and accuracy of the AI system. This is crucial for auditability as it provides a quantitative measure of the system's performance. |
 
+*Table continues... See the all the reasoning [here](./(4)%20compliance_check_distribution/compliance_check_distribution_reasoning_markdown)*
+
 | Task Name | Compliance Check | Compliance Description |
 |-----------|------------------|------------------------|
 | Metadata Management | Metadata Storage and Tracking | Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions. |
@@ -71,4 +73,4 @@ Example: Accountability Auditability
 | Data Quality Checks | Consistency and Integrity Checks | Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing. |
 | Performance Metric Calculation | Evaluation Metric Computation | Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression. |
 
-*Table continues... See the all the tables [here]((4) compliance_check_distribution\compliance_check_distribution_reasoning_markdown)*
+*Table continues... See the all the tables [here](./(4)%20compliance_check_distribution/markdown)*
