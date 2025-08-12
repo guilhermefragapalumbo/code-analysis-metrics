@@ -5,11 +5,43 @@ The methodology consists of five sequential stages: (1) AI Lifecycle Stage Ident
 Each stage builds upon the previous one to form a comprehensive architecture capable of producing objective, interpretable, and quantifiable metrics grounded in ethical principles, grounded in both AI development best practices and the Ethics Guidelines for Trustworthy AI.
 
 
-<div style="display: flex; gap: 10px;">
-  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" style="background-color: #007BFF; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
+
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px 0;">
+  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" 
+     style="
+       background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+       color: white;
+       padding: 12px 30px;
+       border-radius: 30px;
+       text-align: center;
+       text-decoration: none;
+       font-weight: 600;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       box-shadow: 0 4px 12px rgba(37, 117, 252, 0.4);
+       transition: background 0.3s ease, box-shadow 0.3s ease;
+     "
+     onmouseover="this.style.background='linear-gradient(135deg, #4e07b7 0%, #1a5edd 100%)'; this.style.boxShadow='0 6px 20px rgba(30, 94, 221, 0.6)';"
+     onmouseout="this.style.background='linear-gradient(135deg, #6a11cb 0%, #2575fc 100%)'; this.style.boxShadow='0 4px 12px rgba(37, 117, 252, 0.4)';"
+  >
     AI Act
   </a>
-  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" style="background-color: #28A745; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
+
+  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" 
+     style="
+       background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+       color: white;
+       padding: 12px 30px;
+       border-radius: 30px;
+       text-align: center;
+       text-decoration: none;
+       font-weight: 600;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       box-shadow: 0 4px 12px rgba(255, 75, 43, 0.4);
+       transition: background 0.3s ease, box-shadow 0.3s ease;
+     "
+     onmouseover="this.style.background='linear-gradient(135deg, #d83655 0%, #d63b2e 100%)'; this.style.boxShadow='0 6px 20px rgba(214, 59, 46, 0.6)';"
+     onmouseout="this.style.background='linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%)'; this.style.boxShadow='0 4px 12px rgba(255, 75, 43, 0.4)';"
+  >
     Ethics Guideline for Trustworthy AI
   </a>
 </div>
