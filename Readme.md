@@ -4,10 +4,15 @@
 The methodology consists of five sequential stages: (1) AI Lifecycle Stage Identification, (2) Tasks Definition, (3) Compliance List Development, (4) Compliance Checks Distribution, and (5) Metrics Creation. 
 Each stage builds upon the previous one to form a comprehensive architecture capable of producing objective, interpretable, and quantifiable metrics grounded in ethical principles, grounded in both AI development best practices and the Ethics Guidelines for Trustworthy AI.
 
-[![AI Act](https://img.shields.io/badge/Button-Text-blue)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
 
-[![Ethics Guideline for Trustworthy AI](https://img.shields.io/badge/Button-Text-blue)](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
-
+<div style="display: flex; gap: 10px;">
+  <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" style="background-color: #007BFF; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    AI Act
+  </a>
+  <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" style="background-color: #28A745; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    Ethics Guideline for Trustworthy AI
+  </a>
+</div>
 
 
 ## (1) AI Lifecycle Stage Identification
