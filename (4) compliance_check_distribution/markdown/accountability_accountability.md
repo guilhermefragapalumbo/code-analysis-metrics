@@ -1,5 +1,3 @@
-### accountability_accountability.json
-
 | Task Name | Compliance Check | Compliance Description |
 |-----------|------------------|------------------------|
 | Experiment Tracking | Hyperparameter & Metric Logging | Check if the code logs hyperparameters, metrics, and model configurations for reproducibility. |

@@ -1,0 +1,331 @@
+<html>
+
+<head>
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            border-radius: 0;
+            background-color: transparent;
+            box-shadow: none;
+            transition: border-bottom 0.2s ease-in-out;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-bottom: 2px solid #4CAF50;
+        }
+
+        label {
+            position: absolute;
+            top: 12px;
+            left: 0;
+            font-size: 16px;
+            color: #999;
+            pointer-events: none;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+        }
+
+        .form-control:focus+label,
+        .form-control:valid+label {
+            top: -15px;
+            font-size: 12px;
+            color: #4CAF50;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+
+        .submit-btn:hover {
+            background-color: #378d3a;
+        }
+
+        .radio-label {
+            position: relative;
+            top: 0px;
+            color: black;
+        }
+
+        small {
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <h1>Alergias na infância: prevalência, demografia</h1>
+        <div class="form-group">
+            <select class="form-control" name="GENDER_FACTOR_ENCODER" id="GENDER_FACTOR_ENCODER"
+                name="GENDER_FACTOR_ENCODER">
+                <option value="0" selected>Masculino</option>
+                <option value="1">Feminino</option>
+            </select>
+            <label for="GENDER_FACTOR_ENCODER">Género</label>
+        </div>
+
+        <div class="form-group">
+            <select class="form-control" name="RACE_FACTOR_ENCODER" id="RACE_FACTOR_ENCODER" name="RACE_FACTOR_ENCODER"
+                required>
+                <option value="0">Branca</option>
+                <option value="1">Negra</option>
+                <option value="2">Asiática ou Ilhas pacíficas</option>
+                <option value="3" selected>Outra</option>
+            </select>
+            <label for="RACE_FACTOR_ENCODER">Raça</label>
+        </div>
+
+        <div class="form-group">
+            <select class="form-control" name="ETHNICITY_FACTOR_ENCODER" id="ETHNICITY_FACTOR_ENCODER"
+                name="ETHNICITY_FACTOR_ENCODER">
+                <option value="0" selected>Não Hispânica</option>
+                <option value="1">Hispânica</option>
+            </select>
+            <label for="ETHNICITY_FACTOR_ENCODER">Etnia</label>
+        </div>
+
+        <div class="form-group">
+            <select class="form-control" name="ATOPIC_MARCH_COHORT_ENCODER" id="ATOPIC_MARCH_COHORT_ENCODER"
+                name="ATOPIC_MARCH_COHORT_ENCODER">
+                <option value="0" selected>Não</option>
+                <option value="1">Sim</option>
+            </select>
+            <label for="ATOPIC_MARCH_COHORT_ENCODER">Histórico alérgico</label>
+        </div>
+
+        <h2 style="text-align: center;">Reações</h2>
+
+        <div style="display: flex; justify-content: space-around;">
+            <div>
+                <div class="form-group">
+                    <small>Marisco: </small><br><br>
+                    <input type="radio" id="option1" name="SHELLFISH_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="SHELLFISH_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="SHELLFISH_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+                <div class="form-group">
+                    <small>Peixe: </small><br><br>
+                    <input type="radio" id="option1" name="FISH_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="FISH_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="FISH_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Leite: </small><br><br>
+                    <input type="radio" id="option1" name="MILK_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="MILK_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="MILK_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Soja: </small><br><br>
+                    <input type="radio" id="option1" name="SOY_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="SOY_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="SOY_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Ovos: </small><br><br>
+                    <input type="radio" id="option1" name="EGG_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="EGG_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="EGG_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Trigo: </small><br><br>
+                    <input type="radio" id="option1" name="WHEAT_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="WHEAT_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="WHEAT_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Amendoim: </small><br><br>
+                    <input type="radio" id="option1" name="PEANUT_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="PEANUT_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="PEANUT_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+            </div>
+    
+    
+            <div>
+                <div class="form-group">
+                    <small>Sésamo: </small><br><br>
+                    <input type="radio" id="option1" name="SESAME_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="SESAME_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="SESAME_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Nozes: </small><br><br>
+                    <input type="radio" id="option1" name="WALNUT_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="WALNUT_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="WALNUT_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Amêndoa: </small><br><br>
+                    <input type="radio" id="option1" name="ALMOND_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="ALMOND_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="ALMOND_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Cajú: </small><br><br>
+                    <input type="radio" id="option1" name="CASHEW_ALG" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="CASHEW_ALG" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="CASHEW_ALG" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Dermatite atópica: </small><br><br>
+                    <input type="radio" id="option1" name="ATOPIC_DERM" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="ATOPIC_DERM" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="ATOPIC_DERM" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Rinite: </small><br><br>
+                    <input type="radio" id="option1" name="ALLERGIC_RHINITIS" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="ALLERGIC_RHINITIS" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="ALLERGIC_RHINITIS" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+        
+        
+                <div class="form-group">
+                    <small>Asma: </small><br><br>
+                    <input type="radio" id="option1" name="ASTHMA" value="0">
+                    <label class="radio-label" for="option1">Não</label>
+        
+                    <input type="radio" id="option2" name="ASTHMA" value="0.5">
+                    <label class="radio-label" for="option2">Talvez</label>
+        
+                    <input type="radio" id="option3" name="ASTHMA" value="1">
+                    <label class="radio-label" for="option3">Sim</label>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" class="submit-btn" value="Prever">
+    </form>
+</body>
+
+</html>
