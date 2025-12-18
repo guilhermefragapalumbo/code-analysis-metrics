@@ -20,11 +20,6 @@ Seven stages were identified that capture the end-to-end lifecycle of AI system 
 | **Model Deployment**         | Integrating the model into production environments. This may involve wrapping models in APIs, ensuring infrastructure compatibility, and conducting deployment testing. |
 | **Monitoring and Maintenance** | Ongoing observation and updates to the model post-deployment.                                                                            |
 
-
-![Alt text](images/circular_pipeline.jpg)
-
-or
-
 ![Alt text](images/pipeline.jpg)
 
 ## (2) Tasks Definition
