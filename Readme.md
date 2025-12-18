@@ -69,7 +69,3 @@ Example: Accountability Auditability
 | Performance Metric Calculation | Evaluation Metric Computation | Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression. |
 
 *Table continues... See the all the tables [here](./(4)%20compliance_check_distribution/markdown)*
-
-
-## (5) Metrics Creation
-
