@@ -1,11 +1,9 @@
 # Framework for AI Ethical Compliance Metrics
 
-Code and data for the article *A Lifecycle Framework for Automated Assessment of Trustworthy AI Requirements in Machine Learning Codebases*.
-
 Guilherme Palumbo¹ ([ORCID](https://orcid.org/0000-0001-6633-3033)), Davide Carneiro² ([ORCID](https://orcid.org/0000-0002-6650-0388)), Victor Alves³ ([ORCID](https://orcid.org/0000-0003-1819-7051))
 
-¹ CIICESI, ESTG, Instituto Politécnico do Porto, Felgueiras, Portugal\
-² INESC TEC: Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência, Porto, Portugal\
+¹ CIICESI, ESTG, Instituto Politécnico do Porto, Felgueiras, Portugal
+² INESC TEC: Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência, Porto, Portugal
 ³ ALGORITMI Research Centre / LASI, University of Minho, Braga, Portugal
 
 Corresponding author: Guilherme Palumbo (gfp@estg.ipp.pt)
