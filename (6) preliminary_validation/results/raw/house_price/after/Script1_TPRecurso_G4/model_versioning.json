@@ -1,0 +1,44 @@
+[
+  {
+    "Task Name": "Model Serialization",
+    "Compliance Check": "Deployable Model Format Check",
+    "Score": 1,
+    "Reasoning": "The code does not include any functionality for saving or serializing the trained model into a deployable format such as Pickle, ONNX, or TensorFlow SavedModel. This is a crucial step for deploying the model in a production environment.",
+    "Recommendation": "Add functionality to serialize the trained model into a deployable format. This can be achieved using libraries such as joblib or pickle in Python. For example, 'joblib.dump(best_model, 'best_model.pkl')' would save the trained model to a file named 'best_model.pkl'."
+  },
+  {
+    "Task Name": "Experiment Tracking",
+    "Compliance Check": "Hyperparameter & Metric Logging",
+    "Score": 2,
+    "Reasoning": "The code prints out some metrics and hyperparameters, but it does not log them for future reference or reproducibility. The hyperparameters of the models are hardcoded and the metrics are printed out during the cross-validation process, but there is no systematic logging or saving of this information.",
+    "Recommendation": "Implement a logging system to keep track of model hyperparameters, metrics, and configurations for each run. This can be achieved using Python's built-in logging module, or more advanced tools like TensorBoard or MLflow. This will help in tracking the performance of different model versions and in reproducing the results."
+  },
+  {
+    "Task Name": "Model Hashing",
+    "Compliance Check": "Unique Model Identifier Generation",
+    "Score": 1,
+    "Reasoning": "The code does not generate unique identifiers or hashes for each trained model version. This makes it difficult to track and manage different versions of the model.",
+    "Recommendation": "Implement a system for generating unique identifiers or hashes for each trained model. This could be as simple as appending a timestamp to the model filename when it is saved, or using a more complex hashing algorithm. This will help in tracking and managing different versions of the model."
+  },
+  {
+    "Task Name": "Model Registry Management",
+    "Compliance Check": "Version-Controlled Model Storage",
+    "Score": 1,
+    "Reasoning": "The code does not store models in a registry like MLflow or ModelDB for version control. This is a crucial step for managing different versions of the model and ensuring reproducibility.",
+    "Recommendation": "Implement a model registry system to store and manage different versions of the model. This can be achieved using tools like MLflow or ModelDB. This will help in managing different versions of the model and ensuring reproducibility."
+  },
+  {
+    "Task Name": "Deployment Compatibility Testing",
+    "Compliance Check": "Environment Compatibility Validation",
+    "Score": 1,
+    "Reasoning": "The code does not ensure model compatibility with different deployment environments. This is a crucial step for deploying the model in a production environment.",
+    "Recommendation": "Add functionality to validate the model's compatibility with the target deployment environment. This could involve testing the model in an environment that matches the production environment as closely as possible, and ensuring that all necessary dependencies are included with the model."
+  },
+  {
+    "Task Name": "Version Comparison",
+    "Compliance Check": "New vs. Old Model Performance Check",
+    "Score": 1,
+    "Reasoning": "The code does not include logic to compare new model versions against previous versions before deployment. This is a crucial step for ensuring that new model versions are an improvement over previous versions.",
+    "Recommendation": "Add functionality to compare the performance of new model versions against previous versions. This could involve storing performance metrics for each version in a database or log file, and then comparing these metrics when a new model is trained. This will help ensure that new model versions are an improvement over previous versions."
+  }
+]

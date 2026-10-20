@@ -1,0 +1,47 @@
+[
+    {
+        "Task Name": "Data Collection",
+        "Compliance Check": "Raw Data Acquisition",
+        "Compliance description": "Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+    },
+    {
+        "Task Name": "Data Labeling",
+        "Compliance Check": "Annotation Mechanism",
+        "Compliance description": "Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling."
+    },
+    {
+        "Task Name": "Metadata Management",
+        "Compliance Check": "Metadata Storage and Tracking",
+        "Compliance description": "Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions."
+    },
+    {
+        "Task Name": "Data Versioning",
+        "Compliance Check": "Version Control Implementation",
+        "Compliance description": "Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+    },
+    {
+        "Task Name": "Model Training",
+        "Compliance Check": "Training Process Implementation",
+        "Compliance description": "Assess if the code includes proper logic to train the selected model on the dataset."
+    },
+    {
+        "Task Name": "Model Serialization",
+        "Compliance Check": "Deployable Model Format Check",
+        "Compliance description": "Verify if the code serializes the trained model into a deployable format (e.g., Pickle, ONNX, TensorFlow SavedModel)."
+    },
+    {
+        "Task Name": "Experiment Tracking",
+        "Compliance Check": "Hyperparameter & Metric Logging",
+        "Compliance description": "Check if the code logs hyperparameters, metrics, and model configurations for reproducibility."
+    },
+    {
+        "Task Name": "Model Registry Management",
+        "Compliance Check": "Version-Controlled Model Storage",
+        "Compliance description": "Verify if the code stores models in a registry like MLflow or ModelDB for version control."
+    },
+    {
+        "Task Name": "Logging and Debugging",
+        "Compliance Check": "Prediction & Failure Logging",
+        "Compliance description": "Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+    }
+]

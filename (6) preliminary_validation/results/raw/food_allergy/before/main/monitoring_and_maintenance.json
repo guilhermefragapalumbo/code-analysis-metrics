@@ -1,0 +1,58 @@
+[
+  {
+    "Task Name": "Performance Monitoring",
+    "Compliance Check": "Model Performance Metric Tracking",
+    "Score": 4,
+    "Reasoning": "The code does track key performance metrics such as R2 score, mean absolute error, mean squared logarithmic error, and a classification report. However, there is no evidence of tracking metrics like latency and throughput in production.",
+    "Recommendation": "Add mechanisms to log latency and throughput in production to fully implement this task."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Score": 1,
+    "Reasoning": "The code does not include mechanisms to track shifts in input data distribution. This is important to detect changes in the data over time.",
+    "Recommendation": "Implement mechanisms to monitor the distribution of input data over time to detect any significant shifts."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Score": 1,
+    "Reasoning": "The code does not include mechanisms to monitor changes in the relationship between input features and target labels. This is important to detect changes in the underlying data patterns.",
+    "Recommendation": "Implement mechanisms to monitor the relationship between input features and target labels over time to detect any significant changes."
+  },
+  {
+    "Task Name": "Model Retraining Scheduling",
+    "Compliance Check": "Automated Model Retraining Pipeline",
+    "Score": 1,
+    "Reasoning": "The code does not automate retraining based on performance decay or data updates. This is important to maintain the model's performance over time.",
+    "Recommendation": "Implement an automated pipeline for model retraining based on performance decay or data updates."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Score": 1,
+    "Reasoning": "The code does not include mechanisms to detect and flag unexpected predictions. This is important to identify potential anomalies or errors in the model's predictions.",
+    "Recommendation": "Implement mechanisms to detect and flag unexpected predictions."
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Compliance Check": "Prediction & Failure Logging",
+    "Score": 1,
+    "Reasoning": "The code does not maintain logs of predictions, failures, and user feedback for debugging. This is important for troubleshooting and improving the model over time.",
+    "Recommendation": "Implement logging of predictions, failures, and user feedback for debugging."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Score": 1,
+    "Reasoning": "The code does not include strategies for handling failures, security threats, or biases. This is important for maintaining the model's performance and security.",
+    "Recommendation": "Implement strategies for handling failures, security threats, or biases."
+  },
+  {
+    "Task Name": "Resource Monitoring",
+    "Compliance Check": "System Resource Usage Tracking",
+    "Score": 1,
+    "Reasoning": "The code does not track CPU, memory, and storage usage for optimization. This is important for maintaining the efficiency and performance of the system.",
+    "Recommendation": "Implement mechanisms to track CPU, memory, and storage usage for optimization."
+  }
+]

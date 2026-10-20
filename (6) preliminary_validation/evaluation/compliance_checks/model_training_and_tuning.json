@@ -1,0 +1,57 @@
+[
+    {
+       "Task Name":"Model Selection",
+       "Compliance Check":"Algorithm Choice Implementation",
+       "Compliance description":"Check if the code includes logic to select the best algorithm (e.g., decision trees, neural networks, transformers) for the task."
+    },
+    {
+       "Task Name":"Defining Loss Functions and Optimizers",
+       "Compliance Check":"Loss Function & Optimizer Selection",
+       "Compliance description":"Verify if the code properly defines loss functions (e.g., MSE, cross-entropy) and optimization methods (SGD, Adam)."
+    },
+    {
+       "Task Name":"Hyperparameter Initialization",
+       "Compliance Check":"Default Hyperparameter Setup",
+       "Compliance description":"Ensure the code initializes default values for key hyperparameters such as learning rate, batch size, and regularization."
+    },
+    {
+       "Task Name":"Data Pipeline Optimization",
+       "Compliance Check":"Training Data Pipeline Efficiency",
+       "Compliance description":"Check if the code optimizes data loading, preprocessing, and augmentation for training."
+    },
+    {
+       "Task Name":"Model Training",
+       "Compliance Check":"Training Process Implementation",
+       "Compliance description":"Assess if the code includes proper logic to train the selected model on the dataset."
+    },
+    {
+       "Task Name":"Hyperparameter Optimization",
+       "Compliance Check":"Automated Hyperparameter Tuning",
+       "Compliance description":"Verify if the code implements grid search, random search, or Bayesian optimization for fine-tuning."
+    },
+    {
+       "Task Name":"Cross-validation",
+       "Compliance Check":"Model Generalization Testing",
+       "Compliance description":"Ensure the code correctly splits data into multiple subsets for cross-validation."
+    },
+    {
+       "Task Name":"Regularization Techniques",
+       "Compliance Check":"Overfitting Prevention Methods",
+       "Compliance description":"Check if the code includes dropout, L1/L2 regularization, or batch normalization to improve generalization."
+    },
+    {
+       "Task Name":"Parallelization and Distributed Training",
+       "Compliance Check":"Scalable Training Implementation",
+       "Compliance description":"Assess if the code utilizes GPUs, TPUs, or cloud-based clusters to enhance training efficiency."
+    },
+    {
+       "Task Name":"Handling Class Imbalances",
+       "Compliance Check":"Balanced Training Strategy",
+       "Compliance description":"Verify if the code adjusts class weights or applies cost-sensitive learning methods."
+    },
+    {
+       "Task Name":"Explainability Features",
+       "Compliance Check":"Model Interpretability Tools",
+       "Compliance description":"Check if the code incorporates tools like SHAP, LIME, or attention mechanisms to explain model decisions."
+    }
+ ]

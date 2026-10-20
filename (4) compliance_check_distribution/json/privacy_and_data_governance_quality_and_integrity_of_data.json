@@ -1,0 +1,52 @@
+[
+    {
+        "Task Name": "Data Collection",
+        "Compliance Check": "Raw Data Acquisition",
+        "Compliance description": "Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+    },
+    {
+        "Task Name": "Data Extraction",
+        "Compliance Check": "Data Retrieval Implementation",
+        "Compliance description": "Verify if the code includes logic to extract data from structured (CSV, SQL databases) and unstructured (PDFs, images, text) sources."
+    },
+    {
+        "Task Name": "Data Integration",
+        "Compliance Check": "Multi-Source Data Merging",
+        "Compliance description": "Assess whether the code includes functionality to merge multiple data sources while resolving inconsistencies."
+    },
+    {
+        "Task Name": "Data Labeling",
+        "Compliance Check": "Annotation Mechanism",
+        "Compliance description": "Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling."
+    },
+    {
+        "Task Name": "Metadata Management",
+        "Compliance Check": "Metadata Storage and Tracking",
+        "Compliance description": "Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions."
+    },
+    {
+        "Task Name": "Data Versioning",
+        "Compliance Check": "Version Control Implementation",
+        "Compliance description": "Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+    },
+    {
+        "Task Name": "Schema Validation",
+        "Compliance Check": "Schema Conformance Check",
+        "Compliance description": "Check if the code validates incoming data against predefined formats and structures to ensure compliance."
+    },
+    {
+        "Task Name": "Data Quality Checks",
+        "Compliance Check": "Consistency and Integrity Checks",
+        "Compliance description": "Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Anomaly Detection",
+        "Compliance Check": "Unexpected Prediction Flagging",
+        "Compliance description": "Check if the code includes mechanisms to detect and flag unexpected predictions."
+    }
+]

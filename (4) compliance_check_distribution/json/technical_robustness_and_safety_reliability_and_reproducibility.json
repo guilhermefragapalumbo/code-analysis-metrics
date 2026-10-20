@@ -1,0 +1,52 @@
+[
+    {
+        "Task Name": "Data Versioning",
+        "Compliance Check": "Version Control Implementation",
+        "Compliance description": "Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+    },
+    {
+        "Task Name": "Schema Validation",
+        "Compliance Check": "Schema Conformance Check",
+        "Compliance description": "Check if the code validates incoming data against predefined formats and structures to ensure compliance."
+    },
+    {
+        "Task Name": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "Compliance Check": "Automated Deployment Pipeline",
+        "Compliance description": "Ensure the code includes CI/CD mechanisms to automate model deployment and updates."
+    },
+    {
+        "Task Name": "Performance Metric Calculation",
+        "Compliance Check": "Evaluation Metric Computation",
+        "Compliance description": "Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression."
+    },
+    {
+        "Task Name": "Model Validation",
+        "Compliance Check": "Validation Set Performance Check",
+        "Compliance description": "Check if the code evaluates the model’s generalization ability using a validation set."
+    },
+    {
+        "Task Name": "Experiment Tracking",
+        "Compliance Check": "Hyperparameter & Metric Logging",
+        "Compliance description": "Check if the code logs hyperparameters, metrics, and model configurations for reproducibility."
+    },
+    {
+        "Task Name": "Model Registry Management",
+        "Compliance Check": "Version-Controlled Model Storage",
+        "Compliance description": "Verify if the code stores models in a registry like MLflow or ModelDB for version control."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Logging and Debugging",
+        "Compliance Check": "Prediction & Failure Logging",
+        "Compliance description": "Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+    }
+]

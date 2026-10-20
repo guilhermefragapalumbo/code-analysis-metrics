@@ -1,0 +1,47 @@
+[
+  {
+    "Task Name": "Data Collection",
+    "Compliance Check": "Raw Data Acquisition",
+    "Reasoning": "Acquiring raw data is the first step in the AI development process. Ensuring that this data is collected without unfair bias is crucial to prevent the propagation of such biases in the subsequent stages of AI system development. This directly aligns with the ethical principle of avoidance of unfair bias."
+  },
+  {
+    "Task Name": "Data Labeling",
+    "Compliance Check": "Annotation Mechanism",
+    "Reasoning": "The process of data labeling can introduce bias if not done carefully. Ensuring that the annotation mechanism is fair and unbiased is essential to prevent the AI system from learning and propagating these biases, thus aligning with the principle of avoidance of unfair bias."
+  },
+  {
+    "Task Name": "Handling Imbalanced Data",
+    "Compliance Check": "Class Balance Techniques",
+    "Reasoning": "Imbalanced data can lead to unfair bias in AI systems by over-representing certain classes and under-representing others. Implementing class balance techniques can help to mitigate this risk and align the AI development process with the principle of avoidance of unfair bias."
+  },
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Reasoning": "Bias and fairness testing is directly related to the principle of avoidance of unfair bias. By detecting and mitigating bias, this task ensures that the AI system does not unfairly favor or discriminate against certain groups or individuals."
+  },
+  {
+    "Task Name": "Data Quality Checks",
+    "Compliance Check": "Consistency and Integrity Checks",
+    "Reasoning": "Ensuring the quality of data through consistency and integrity checks can help to identify and remove any unfair biases present in the data. This aligns with the principle of avoidance of unfair bias by preventing the propagation of such biases in the AI system."
+  },
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Compliance Check": "Sensitive Data Masking",
+    "Reasoning": "While not directly related to bias, anonymization and privacy handling can indirectly contribute to the avoidance of unfair bias. By masking sensitive data, this task can help to prevent biases related to sensitive attributes (such as race, gender, etc.) from being incorporated into the AI system."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Reasoning": "Data drift detection involves monitoring the distribution of input data over time. This can help to identify and address any emerging biases in the data, thus aligning with the principle of avoidance of unfair bias."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Reasoning": "Concept drift detection involves monitoring changes in the relationship between input data and target variables. This can help to identify and address any emerging biases in the AI system's predictions, thus aligning with the principle of avoidance of unfair bias."
+  },
+  {
+    "Task Name": "Handling Class Imbalances",
+    "Compliance Check": "Balanced Training Strategy",
+    "Reasoning": "Similar to the task of handling imbalanced data, handling class imbalances through a balanced training strategy can help to avoid unfair bias in the AI system by ensuring that all classes are adequately represented in the training data."
+  }
+]

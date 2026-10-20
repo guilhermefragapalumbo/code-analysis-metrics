@@ -1,0 +1,32 @@
+[
+    {
+        "Task Name": "Infrastructure Setup",
+        "Compliance Check": "Deployment Platform Selection",
+        "Compliance description": "Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices)."
+    },
+    {
+        "Task Name": "Containerization",
+        "Compliance Check": "Containerized Model Deployment",
+        "Compliance description": "Check if the code includes Docker or Kubernetes for deploying the model in a containerized environment."
+    },
+    {
+        "Task Name": "Scalability Planning",
+        "Compliance Check": "Load Balancing & Autoscaling",
+        "Compliance description": "Check if the code includes autoscaling or load balancing to handle high-demand scenarios."
+    },
+    {
+        "Task Name": "Data Pipeline Optimization",
+        "Compliance Check": "Training Data Pipeline Efficiency",
+        "Compliance description": "Check if the code optimizes data loading, preprocessing, and augmentation for training."
+    },
+    {
+        "Task Name": "Parallelization and Distributed Training",
+        "Compliance Check": "Scalable Training Implementation",
+        "Compliance description": "Assess if the code utilizes GPUs, TPUs, or cloud-based clusters to enhance training efficiency."
+    },
+    {
+        "Task Name": "Resource Monitoring",
+        "Compliance Check": "System Resource Usage Tracking",
+        "Compliance description": "Check if the code tracks CPU, memory, and storage usage for optimization."
+    }
+]

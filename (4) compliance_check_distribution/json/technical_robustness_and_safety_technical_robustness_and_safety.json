@@ -1,0 +1,52 @@
+[
+    {
+        "Task Name": "Data Quality Checks",
+        "Compliance Check": "Consistency and Integrity Checks",
+        "Compliance description": "Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing."
+    },
+    {
+        "Task Name": "Infrastructure Setup",
+        "Compliance Check": "Deployment Platform Selection",
+        "Compliance description": "Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices)."
+    },
+    {
+        "Task Name": "Security Measures",
+        "Compliance Check": "Authentication & Encryption Checks",
+        "Compliance description": "Ensure the code implements authentication, authorization, and encryption for model security."
+    },
+    {
+        "Task Name": "Performance Metric Calculation",
+        "Compliance Check": "Evaluation Metric Computation",
+        "Compliance description": "Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression."
+    },
+    {
+        "Task Name": "Error Analysis",
+        "Compliance Check": "Incorrect Prediction Analysis",
+        "Compliance description": "Check if the code identifies patterns in incorrect predictions and provides insights for improvement."
+    },
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Model Validation",
+        "Compliance Check": "Validation Set Performance Check",
+        "Compliance description": "Check if the code evaluates the model’s generalization ability using a validation set."
+    },
+    {
+        "Task Name": "Defining Loss Functions and Optimizers",
+        "Compliance Check": "Loss Function & Optimizer Selection",
+        "Compliance description": "Verify if the code properly defines loss functions (e.g., MSE, cross-entropy) and optimization methods (SGD, Adam)."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    }
+]

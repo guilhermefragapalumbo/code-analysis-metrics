@@ -1,0 +1,52 @@
+[
+    {
+        "Task Name": "Infrastructure Setup",
+        "Compliance Check": "Deployment Platform Selection",
+        "Compliance description": "Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices)."
+    },
+    {
+        "Task Name": "Containerization",
+        "Compliance Check": "Containerized Model Deployment",
+        "Compliance description": "Check if the code includes Docker or Kubernetes for deploying the model in a containerized environment."
+    },
+    {
+        "Task Name": "Scalability Planning",
+        "Compliance Check": "Load Balancing & Autoscaling",
+        "Compliance description": "Check if the code includes autoscaling or load balancing to handle high-demand scenarios."
+    },
+    {
+        "Task Name": "Security Measures",
+        "Compliance Check": "Authentication & Encryption Checks",
+        "Compliance description": "Ensure the code implements authentication, authorization, and encryption for model security."
+    },
+    {
+        "Task Name": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "Compliance Check": "Automated Deployment Pipeline",
+        "Compliance description": "Ensure the code includes CI/CD mechanisms to automate model deployment and updates."
+    },
+    {
+        "Task Name": "Error Analysis",
+        "Compliance Check": "Incorrect Prediction Analysis",
+        "Compliance description": "Check if the code identifies patterns in incorrect predictions and provides insights for improvement."
+    },
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    }
+]

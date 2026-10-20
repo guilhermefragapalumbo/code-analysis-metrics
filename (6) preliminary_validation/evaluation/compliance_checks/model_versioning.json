@@ -1,0 +1,32 @@
+[
+    {
+       "Task Name":"Model Serialization",
+       "Compliance Check":"Deployable Model Format Check",
+       "Compliance description":"Verify if the code serializes the trained model into a deployable format (e.g., Pickle, ONNX, TensorFlow SavedModel)."
+    },
+    {
+       "Task Name":"Experiment Tracking",
+       "Compliance Check":"Hyperparameter & Metric Logging",
+       "Compliance description":"Check if the code logs hyperparameters, metrics, and model configurations for reproducibility."
+    },
+    {
+       "Task Name":"Model Hashing",
+       "Compliance Check":"Unique Model Identifier Generation",
+       "Compliance description":"Ensure the code generates unique identifiers (hashes) for each trained model version."
+    },
+    {
+       "Task Name":"Model Registry Management",
+       "Compliance Check":"Version-Controlled Model Storage",
+       "Compliance description":"Verify if the code stores models in a registry like MLflow or ModelDB for version control."
+    },
+    {
+       "Task Name":"Deployment Compatibility Testing",
+       "Compliance Check":"Environment Compatibility Validation",
+       "Compliance description":"Check if the code ensures model compatibility with different deployment environments."
+    },
+    {
+       "Task Name":"Version Comparison",
+       "Compliance Check":"New vs. Old Model Performance Check",
+       "Compliance description":"Ensure the code includes logic to compare new model versions against previous versions before deployment."
+    }
+ ]

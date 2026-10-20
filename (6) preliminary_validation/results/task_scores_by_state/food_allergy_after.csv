@@ -1,0 +1,70 @@
+Task Name,Score
+Data Collection,1.0
+Data Extraction,5.0
+Data Integration,0.0
+Streaming Data Handling,0.0
+Batch Data Handling,1.0
+Data Labeling,0.0
+Metadata Management,0.0
+Data Versioning,0.0
+Schema Validation,1.0
+Data Storage Strategy,0.0
+Remove Duplicates,5.0
+Fix Corrupt Records,3.0
+Handle Missing Values,5.0
+Data Normalization/Scaling,5.0
+Feature Engineering,5.0
+Feature Selection,5.0
+Data Encoding,5.0
+Handling Imbalanced Data,1.0
+Data Augmentation,0.0
+Data Transformation,5.0
+Anonymization and Privacy Handling,0.0
+Data Splitting,5.0
+Outlier Detection and Treatment,5.0
+Data Quality Checks,3.0
+Infrastructure Setup,0.0
+Containerization,0.0
+API Integration,0.0
+Serverless Deployment,0.0
+Scalability Planning,0.0
+Security Measures,0.0
+Deployment A/B Testing,0.0
+Latency Optimization,0.0
+Continuous Integration/Continuous Deployment (CI/CD),0.0
+Performance Metric Calculation,4.0
+Confusion Matrix Analysis,1.0
+Precision-Recall and ROC Curve Analysis,1.0
+Error Analysis,1.0
+Bias and Fairness Testing,1.0
+Interpretability Analysis,5.0
+Benchmarking Against Baselines,1.0
+Model A/B Testing,1.0
+Uncertainty Estimation,1.0
+Cross-Validation,5.0
+Model Validation,4.0
+Model Selection,3.0
+Defining Loss Functions and Optimizers,0.0
+Hyperparameter Initialization,5.0
+Data Pipeline Optimization,3.0
+Model Training,5.0
+Hyperparameter Optimization,5.0
+Cross-validation,5.0
+Regularization Techniques,1.0
+Parallelization and Distributed Training,2.0
+Handling Class Imbalances,5.0
+Explainability Features,5.0
+Model Serialization,5.0
+Experiment Tracking,3.0
+Model Hashing,1.0
+Model Registry Management,1.0
+Deployment Compatibility Testing,1.0
+Version Comparison,1.0
+Performance Monitoring,3.0
+Data Drift Detection,1.0
+Concept Drift Detection,1.0
+Model Retraining Scheduling,1.0
+Anomaly Detection,1.0
+Logging and Debugging,2.0
+Incident Response Planning,1.0
+Resource Monitoring,1.0

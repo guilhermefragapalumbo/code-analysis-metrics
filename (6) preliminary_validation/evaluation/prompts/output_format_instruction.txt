@@ -1,0 +1,11 @@
+
+Return the output as a JSON array where each element follows this structure:
+[
+    {
+        "Task Name": the name of the task,
+        "Compliance Check": the name of the compliance check,
+        "Score": value from 0 to 5,
+        "Reasoning": A detailed explanation of why the task received the given score,
+        "Recommendation": Recommended improvement or reason why none is needed
+    }
+]

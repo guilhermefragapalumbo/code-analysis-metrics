@@ -1,0 +1,67 @@
+[
+    {
+        "Task Name": "Metadata Management",
+        "Compliance Check": "Metadata Storage and Tracking",
+        "Compliance description": "Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions."
+    },
+    {
+        "Task Name": "Data Versioning",
+        "Compliance Check": "Version Control Implementation",
+        "Compliance description": "Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+    },
+    {
+        "Task Name": "Schema Validation",
+        "Compliance Check": "Schema Conformance Check",
+        "Compliance description": "Check if the code validates incoming data against predefined formats and structures to ensure compliance."
+    },
+    {
+        "Task Name": "Data Quality Checks",
+        "Compliance Check": "Consistency and Integrity Checks",
+        "Compliance description": "Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing."
+    },
+    {
+        "Task Name": "Performance Metric Calculation",
+        "Compliance Check": "Evaluation Metric Computation",
+        "Compliance description": "Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression."
+    },
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Interpretability Analysis",
+        "Compliance Check": "Model Explainability Implementation",
+        "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+    },
+    {
+        "Task Name": "Model Validation",
+        "Compliance Check": "Validation Set Performance Check",
+        "Compliance description": "Check if the code evaluates the model’s generalization ability using a validation set."
+    },
+    {
+        "Task Name": "Experiment Tracking",
+        "Compliance Check": "Hyperparameter & Metric Logging",
+        "Compliance description": "Check if the code logs hyperparameters, metrics, and model configurations for reproducibility."
+    },
+    {
+        "Task Name": "Model Registry Management",
+        "Compliance Check": "Version-Controlled Model Storage",
+        "Compliance description": "Verify if the code stores models in a registry like MLflow or ModelDB for version control."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Logging and Debugging",
+        "Compliance Check": "Prediction & Failure Logging",
+        "Compliance description": "Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+    }
+]

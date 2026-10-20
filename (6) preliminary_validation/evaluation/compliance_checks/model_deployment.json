@@ -1,0 +1,47 @@
+[
+    {
+       "Task Name":"Infrastructure Setup",
+       "Compliance Check":"Deployment Platform Selection",
+       "Compliance description":"Verify if the code specifies the deployment platform (on-premises, cloud, or edge devices)."
+    },
+    {
+       "Task Name":"Containerization",
+       "Compliance Check":"Containerized Model Deployment",
+       "Compliance description":"Check if the code includes Docker or Kubernetes for deploying the model in a containerized environment."
+    },
+    {
+       "Task Name":"API Integration",
+       "Compliance Check":"Model API Development",
+       "Compliance description":"Ensure the code builds REST or gRPC APIs for serving predictions."
+    },
+    {
+       "Task Name":"Serverless Deployment",
+       "Compliance Check":"Serverless Model Hosting",
+       "Compliance description":"Verify if the code deploys the model using AWS Lambda, Google Cloud Functions, or Azure Functions."
+    },
+    {
+       "Task Name":"Scalability Planning",
+       "Compliance Check":"Load Balancing & Autoscaling",
+       "Compliance description":"Check if the code includes autoscaling or load balancing to handle high-demand scenarios."
+    },
+    {
+       "Task Name":"Security Measures",
+       "Compliance Check":"Authentication & Encryption Checks",
+       "Compliance description":"Ensure the code implements authentication, authorization, and encryption for model security."
+    },
+    {
+       "Task Name":"Deployment A/B Testing",
+       "Compliance Check":"Parallel Model Version Testing",
+       "Compliance description":"Verify if the code deploys multiple model versions simultaneously for performance comparison."
+    },
+    {
+       "Task Name":"Latency Optimization",
+       "Compliance Check":"Inference Speed Enhancement",
+       "Compliance description":"Check if the code uses techniques like quantization, pruning, or hardware acceleration to optimize latency."
+    },
+    {
+       "Task Name":"Continuous Integration/Continuous Deployment (CI/CD)",
+       "Compliance Check":"Automated Deployment Pipeline",
+       "Compliance description":"Ensure the code includes CI/CD mechanisms to automate model deployment and updates."
+    }
+ ]

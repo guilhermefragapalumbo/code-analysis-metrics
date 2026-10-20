@@ -1,0 +1,32 @@
+[
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Compliance Check": "Bias Detection & Mitigation",
+    "Reasoning": "This task directly supports the principle of human agency by ensuring that the AI system does not unfairly favor certain groups or outcomes, which could limit the ability of users to make autonomous decisions. By detecting and mitigating bias, this task ensures that the AI system's outputs are fair and unbiased, allowing users to make informed decisions based on accurate and impartial information."
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Compliance Check": "Model Explainability Implementation",
+    "Reasoning": "Interpretability is key to user autonomy as it provides users with the necessary understanding of how an AI system works and how it makes decisions. This transparency allows users to make informed decisions about their interaction with the system, and to challenge the system's outputs where necessary."
+  },
+  {
+    "Task Name": "Explainability Features",
+    "Compliance Check": "Model Interpretability Tools",
+    "Reasoning": "This task supports the principle of human agency by providing users with tools to understand the AI system's decision-making processes. By making the system's workings transparent, users are empowered to make informed decisions and to challenge the system's outputs where necessary."
+  },
+  {
+    "Task Name": "Uncertainty Estimation",
+    "Compliance Check": "Confidence & Uncertainty Measures",
+    "Reasoning": "This task supports human agency by providing users with information about the level of certainty or uncertainty of the AI system's outputs. This allows users to make informed decisions about whether to trust the system's outputs or to seek additional information or input."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Reasoning": "Anomaly detection supports human agency by flagging unexpected predictions that might indicate a problem with the AI system. This allows users to challenge the system's outputs and to make autonomous decisions about how to respond to these anomalies."
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Compliance Check": "Prediction & Failure Logging",
+    "Reasoning": "Logging and debugging contribute to human agency by providing a record of the AI system's outputs and any failures. This transparency allows users to understand the system's performance and to make informed decisions about its use."
+  }
+]

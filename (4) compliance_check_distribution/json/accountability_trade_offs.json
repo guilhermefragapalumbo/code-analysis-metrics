@@ -1,0 +1,42 @@
+[
+    {
+        "Task Name": "Bias and Fairness Testing",
+        "Compliance Check": "Bias Detection & Mitigation",
+        "Compliance description": "Assess whether the code includes techniques to detect and mitigate model biases against specific groups."
+    },
+    {
+        "Task Name": "Interpretability Analysis",
+        "Compliance Check": "Model Explainability Implementation",
+        "Compliance description": "Verify if the code uses SHAP, LIME, or feature importance scores to explain model predictions."
+    },
+    {
+        "Task Name": "Model Selection",
+        "Compliance Check": "Algorithm Choice Implementation",
+        "Compliance description": "Check if the code includes logic to select the best algorithm (e.g., decision trees, neural networks, transformers) for the task."
+    },
+    {
+        "Task Name": "Defining Loss Functions and Optimizers",
+        "Compliance Check": "Loss Function & Optimizer Selection",
+        "Compliance description": "Verify if the code properly defines loss functions (e.g., MSE, cross-entropy) and optimization methods (SGD, Adam)."
+    },
+    {
+        "Task Name": "Hyperparameter Optimization",
+        "Compliance Check": "Automated Hyperparameter Tuning",
+        "Compliance description": "Verify if the code implements grid search, random search, or Bayesian optimization for fine-tuning."
+    },
+    {
+        "Task Name": "Performance Monitoring",
+        "Compliance Check": "Model Performance Metric Tracking",
+        "Compliance description": "Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+        "Task Name": "Data Drift Detection",
+        "Compliance Check": "Input Data Distribution Monitoring",
+        "Compliance description": "Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    }
+]

@@ -1,0 +1,42 @@
+metric,before_pct,after_pct
+Data Ingestion and Versioning,30.0,43.33
+Data Preprocessing,60.91,70.91
+Model Training and Tuning,38.89,69.0
+Model Evaluation,26.67,63.33
+Model Versioning,26.67,31.67
+Model Deployment,0.0,0.0
+Monitoring and Maintenance,23.75,26.25
+Data Acquisition & Ingestion Quality,45.0,60.0
+Data Integration & Consistency,33.33,40.0
+Data Cleaning & Preprocessing Robustness,67.14,72.86
+Annotation & Labeling Quality,0.0,0.0
+Data Governance & Reproducibility,17.6,30.0
+Privacy & Ethical Data Handling,20.0,40.0
+Feature Engineering & Selection Efficiency,65.0,75.0
+Model Training & Optimization,40.0,61.67
+Model Validation & Evaluation,30.0,68.33
+Model Explainability & Interpretability,20.0,100.0
+Deployment Readiness & Automation,40.0,40.0
+Security & Incident Management,20.0,20.0
+Monitoring & Continuous Improvement,26.0,30.0
+Auditability Index,17.6,30.0
+Data Integrity Score,20.0,0.0
+Auditability Ethical Robustness Index,20.0,60.0
+Accountability Readiness Index,0.0,26.6
+Accountability Robustness Score,6.8,8.0
+Accountability Balance Score,-20.0,20.0
+Accountability Interaction Index,20.0,200.0
+Accountability Failure Penalty Score,-53.4,-32.2
+Data Management Maturity,31.0,28.0
+"Bias, Fairness & Interpretability Index",20.0,70.0
+Model Robustness Score,30.0,70.0
+Reproducibility Index,14.0,26.0
+Operational Transparency (Avg),20.0,20.0
+Accountability Stability (Min/Max Ratio),40.0,28.6
+Accountability Risk (Proportion <3),100.0,87.5
+Accountability Variance (Std Dev),10.6,19.0
+Accountability Interaction (Product),20.0,40.0
+Ethical Robustness (Median),20.0,50.0
+Ethical Compliance Threshold (Proportion >=4),0.0,25.0
+Ethical Variance (Std Dev),17.6,34.2
+Ethical Performance Interaction (Product),75.0,10500.0

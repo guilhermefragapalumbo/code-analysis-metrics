@@ -1,0 +1,37 @@
+[
+    {
+        "Task Name": "Data Collection",
+        "Compliance Check": "Raw Data Acquisition",
+        "Compliance description": "Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+    },
+    {
+        "Task Name": "Data Extraction",
+        "Compliance Check": "Data Retrieval Implementation",
+        "Compliance description": "Verify if the code includes logic to extract data from structured (CSV, SQL databases) and unstructured (PDFs, images, text) sources."
+    },
+    {
+        "Task Name": "Data Integration",
+        "Compliance Check": "Multi-Source Data Merging",
+        "Compliance description": "Assess whether the code includes functionality to merge multiple data sources while resolving inconsistencies."
+    },
+    {
+        "Task Name": "Data Storage Strategy",
+        "Compliance Check": "Storage Selection and Implementation",
+        "Compliance description": "Evaluate whether the code correctly implements storage solutions, such as data lakes, warehouses, or distributed systems, based on requirements."
+    },
+    {
+        "Task Name": "Anonymization and Privacy Handling",
+        "Compliance Check": "Sensitive Data Masking",
+        "Compliance description": "Check if the code masks or anonymizes sensitive data while preserving analytical utility."
+    },
+    {
+        "Task Name": "Security Measures",
+        "Compliance Check": "Authentication & Encryption Checks",
+        "Compliance description": "Ensure the code implements authentication, authorization, and encryption for model security."
+    },
+    {
+        "Task Name": "Incident Response Planning",
+        "Compliance Check": "Model Failure & Security Handling",
+        "Compliance description": "Verify if the code includes strategies for handling failures, security threats, or biases."
+    }
+]

@@ -1,0 +1,12 @@
+| Task Name                      | Compliance Check                   | Compliance description                                                                                                                     |
+|--------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Collection                | Raw Data Acquisition               | Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs.                        |
+| Data Labeling                  | Annotation Mechanism               | Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling.                      |
+| Data Quality Checks            | Consistency and Integrity Checks   | Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing.                                 |
+| Performance Metric Calculation | Evaluation Metric Computation      | Check if the code computes relevant metrics such as accuracy, precision, recall, F1-score for classification, or RMSE, MAE for regression. |
+| Confusion Matrix Analysis      | Classification Error Analysis      | Verify if the code includes logic to compute and analyze the confusion matrix to assess false positives and false negatives.               |
+| Error Analysis                 | Incorrect Prediction Analysis      | Check if the code identifies patterns in incorrect predictions and provides insights for improvement.                                      |
+| Model Validation               | Validation Set Performance Check   | Check if the code evaluates the model’s generalization ability using a validation set.                                                     |
+| Model Training                 | Training Process Implementation    | Assess if the code includes proper logic to train the selected model on the dataset.                                                       |
+| Performance Monitoring         | Model Performance Metric Tracking  | Verify if the code logs key metrics like accuracy, latency, and throughput in production.                                                  |
+| Data Drift Detection           | Input Data Distribution Monitoring | Check if the code includes mechanisms to track shifts in input data distribution.                                                          |

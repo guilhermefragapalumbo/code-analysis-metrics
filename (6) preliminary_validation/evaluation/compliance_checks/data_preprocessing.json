@@ -1,0 +1,72 @@
+[
+   {
+      "Task Name":"Remove Duplicates",
+      "Compliance Check":"Duplicate Record Removal",
+      "Compliance description":"Check if the code implements logic to identify and remove duplicate records from the dataset."
+   },
+   {
+      "Task Name":"Fix Corrupt Records",
+      "Compliance Check":"Corrupt Data Handling",
+      "Compliance description":"Verify if the code includes mechanisms to detect and correct or remove corrupt records."
+   },
+   {
+      "Task Name":"Handle Missing Values",
+      "Compliance Check":"Missing Data Management",
+      "Compliance description":"Ensure the code handles missing values through imputation or removal."
+   },
+   {
+      "Task Name":"Data Normalization/Scaling",
+      "Compliance Check":"Numerical Data Scaling",
+      "Compliance description":"Check if the code normalizes or standardizes numerical data (e.g., Min-Max scaling, Z-score normalization)."
+   },
+   {
+      "Task Name":"Feature Engineering",
+      "Compliance Check":"Feature Creation",
+      "Compliance description":"Assess whether the code derives meaningful new features from raw data."
+   },
+   {
+      "Task Name":"Feature Selection",
+      "Compliance Check":"Dimensionality Reduction",
+      "Compliance description":"Verify if the code includes methods to retain only the most important features."
+   },
+   {
+      "Task Name":"Data Encoding",
+      "Compliance Check":"Categorical Variable Encoding",
+      "Compliance description":"Check if categorical variables are converted into numerical formats (e.g., one-hot encoding, label encoding)."
+   },
+   {
+      "Task Name":"Handling Imbalanced Data",
+      "Compliance Check":"Class Balance Techniques",
+      "Compliance description":"Ensure the code implements oversampling, undersampling, or synthetic data generation (e.g., SMOTE)."
+   },
+   {
+      "Task Name":"Data Augmentation",
+      "Compliance Check":"Synthetic Data Generation",
+      "Compliance description":"Assess if the code applies transformations (e.g., image flipping, text paraphrasing) to expand the dataset."
+   },
+   {
+      "Task Name":"Data Transformation",
+      "Compliance Check":"Data Type and Format Adjustments",
+      "Compliance description":"Verify if the code correctly converts data types, parses timestamps, or applies transformations like log scaling."
+   },
+   {
+      "Task Name":"Anonymization and Privacy Handling",
+      "Compliance Check":"Sensitive Data Masking",
+      "Compliance description":"Check if the code masks or anonymizes sensitive data while preserving analytical utility."
+   },
+   {
+      "Task Name":"Data Splitting",
+      "Compliance Check":"Dataset Partitioning",
+      "Compliance description":"Ensure that the code properly splits data into training, validation, and test sets while maintaining fair distribution."
+   },
+   {
+      "Task Name":"Outlier Detection and Treatment",
+      "Compliance Check":"Anomaly Identification",
+      "Compliance description":"Verify if the code detects and processes outliers using statistical or ML-based methods."
+   },
+   {
+      "Task Name":"Data Quality Checks",
+      "Compliance Check":"Consistency and Integrity Checks",
+      "Compliance description":"Assess whether the code includes checks to maintain data quality and consistency throughout preprocessing."
+   }
+]

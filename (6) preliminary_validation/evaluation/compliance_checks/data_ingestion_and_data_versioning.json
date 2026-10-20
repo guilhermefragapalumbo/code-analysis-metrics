@@ -1,0 +1,52 @@
+[
+    {
+       "Task Name":"Data Collection",
+       "Compliance Check":"Raw Data Acquisition",
+       "Compliance description":"Check if the code includes methods to collect raw data from databases, APIs, sensors, web scraping, or user inputs."
+    },
+    {
+       "Task Name":"Data Extraction",
+       "Compliance Check":"Data Retrieval Implementation",
+       "Compliance description":"Verify if the code includes logic to extract data from structured (CSV, SQL databases) and unstructured (PDFs, images, text) sources."
+    },
+    {
+       "Task Name":"Data Integration",
+       "Compliance Check":"Multi-Source Data Merging",
+       "Compliance description":"Assess whether the code includes functionality to merge multiple data sources while resolving inconsistencies."
+    },
+    {
+       "Task Name":"Streaming Data Handling",
+       "Compliance Check":"Real-Time Data Ingestion",
+       "Compliance description":"Determine if the code implements handling of real-time data streams from IoT devices, event-driven systems, or streaming platforms."
+    },
+    {
+       "Task Name":"Batch Data Handling",
+       "Compliance Check":"Batch Processing Implementation",
+       "Compliance description":"Check if the code supports batch processing mechanisms for large-scale data ingestion."
+    },
+    {
+       "Task Name":"Data Labeling",
+       "Compliance Check":"Annotation Mechanism",
+       "Compliance description":"Assess if the code includes an annotation system for supervised learning tasks, such as manual or automated labeling."
+    },
+    {
+       "Task Name":"Metadata Management",
+       "Compliance Check":"Metadata Storage and Tracking",
+       "Compliance description":"Verify if the code maintains structured metadata, including source details, timestamps, and schema definitions."
+    },
+    {
+       "Task Name":"Data Versioning",
+       "Compliance Check":"Version Control Implementation",
+       "Compliance description":"Ensure that the code implements dataset versioning to track different versions for reproducibility and rollback capabilities."
+    },
+    {
+       "Task Name":"Schema Validation",
+       "Compliance Check":"Schema Conformance Check",
+       "Compliance description":"Check if the code validates incoming data against predefined formats and structures to ensure compliance."
+    },
+    {
+       "Task Name":"Data Storage Strategy",
+       "Compliance Check":"Storage Selection and Implementation",
+       "Compliance description":"Evaluate whether the code correctly implements storage solutions, such as data lakes, warehouses, or distributed systems, based on requirements."
+    }
+ ]

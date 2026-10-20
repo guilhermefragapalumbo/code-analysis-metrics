@@ -1,0 +1,42 @@
+[
+    {
+       "Task Name":"Performance Monitoring",
+       "Compliance Check":"Model Performance Metric Tracking",
+       "Compliance description":"Verify if the code logs key metrics like accuracy, latency, and throughput in production."
+    },
+    {
+       "Task Name":"Data Drift Detection",
+       "Compliance Check":"Input Data Distribution Monitoring",
+       "Compliance description":"Check if the code includes mechanisms to track shifts in input data distribution."
+    },
+    {
+       "Task Name":"Concept Drift Detection",
+       "Compliance Check":"Target Relationship Change Detection",
+       "Compliance description":"Ensure the code monitors changes in the relationship between input features and target labels."
+    },
+    {
+       "Task Name":"Model Retraining Scheduling",
+       "Compliance Check":"Automated Model Retraining Pipeline",
+       "Compliance description":"Verify if the code automates retraining based on performance decay or data updates."
+    },
+    {
+       "Task Name":"Anomaly Detection",
+       "Compliance Check":"Unexpected Prediction Flagging",
+       "Compliance description":"Check if the code includes mechanisms to detect and flag unexpected predictions."
+    },
+    {
+       "Task Name":"Logging and Debugging",
+       "Compliance Check":"Prediction & Failure Logging",
+       "Compliance description":"Ensure the code maintains logs of predictions, failures, and user feedback for debugging."
+    },
+    {
+       "Task Name":"Incident Response Planning",
+       "Compliance Check":"Model Failure & Security Handling",
+       "Compliance description":"Verify if the code includes strategies for handling failures, security threats, or biases."
+    },
+    {
+       "Task Name":"Resource Monitoring",
+       "Compliance Check":"System Resource Usage Tracking",
+       "Compliance description":"Check if the code tracks CPU, memory, and storage usage for optimization."
+    }
+ ]

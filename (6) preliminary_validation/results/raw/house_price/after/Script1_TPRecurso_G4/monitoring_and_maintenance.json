@@ -1,0 +1,58 @@
+[
+  {
+    "Task Name": "Performance Monitoring",
+    "Compliance Check": "Model Performance Metric Tracking",
+    "Score": 3,
+    "Reasoning": "The code calculates and prints key performance metrics like R2 score and RMSE for the test set, but does not log these metrics for future reference or for monitoring in a production environment.",
+    "Recommendation": "Implement a logging system to track these metrics over time. This could be as simple as writing them to a file, or could involve a more sophisticated monitoring system like TensorBoard or MLflow."
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Compliance Check": "Input Data Distribution Monitoring",
+    "Score": 1,
+    "Reasoning": "The code does not include any mechanism to track shifts in the distribution of input data over time.",
+    "Recommendation": "Implement a system to monitor the distribution of input data. This could involve periodically calculating summary statistics or creating visualizations of the data, and alerting the user if these change significantly."
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Compliance Check": "Target Relationship Change Detection",
+    "Score": 1,
+    "Reasoning": "The code does not include any mechanism to monitor changes in the relationship between input features and the target label over time.",
+    "Recommendation": "Implement a system to monitor the relationship between input features and the target label. This could involve periodically retraining the model and comparing its performance to the original model, or using statistical tests to detect changes in the relationships between variables."
+  },
+  {
+    "Task Name": "Model Retraining Scheduling",
+    "Compliance Check": "Automated Model Retraining Pipeline",
+    "Score": 1,
+    "Reasoning": "The code does not include any mechanism to automate retraining of the model based on performance decay or updates to the data.",
+    "Recommendation": "Implement a system to automate retraining of the model. This could involve scheduling regular retraining jobs, or triggering retraining when the performance of the model falls below a certain threshold or when new data becomes available."
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Compliance Check": "Unexpected Prediction Flagging",
+    "Score": 1,
+    "Reasoning": "The code does not include any mechanism to detect or flag unexpected predictions.",
+    "Recommendation": "Implement a system to detect and flag unexpected predictions. This could involve setting thresholds for what constitutes an 'unexpected' prediction, and alerting the user when these thresholds are exceeded."
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Compliance Check": "Prediction & Failure Logging",
+    "Score": 1,
+    "Reasoning": "The code does not maintain logs of predictions or failures, which are important for debugging and understanding the behavior of the model.",
+    "Recommendation": "Implement a logging system to track predictions and failures. This could be as simple as writing them to a file, or could involve a more sophisticated system like a database or a logging service."
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Compliance Check": "Model Failure & Security Handling",
+    "Score": 1,
+    "Reasoning": "The code does not include any strategies for handling failures, security threats, or biases in the model's predictions.",
+    "Recommendation": "Implement strategies for handling failures and security threats. This could involve adding error handling code, implementing security measures like input validation and secure coding practices, and monitoring the model's predictions for biases."
+  },
+  {
+    "Task Name": "Resource Monitoring",
+    "Compliance Check": "System Resource Usage Tracking",
+    "Score": 1,
+    "Reasoning": "The code does not track CPU, memory, or storage usage, which are important for optimizing the performance of the model and the system it runs on.",
+    "Recommendation": "Implement a system to track resource usage. This could involve using built-in Python libraries like psutil, or external monitoring tools."
+  }
+]

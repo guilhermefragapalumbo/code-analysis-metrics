@@ -1,0 +1,347 @@
+[
+  {
+    "Task Name": "Data Collection",
+    "Task Description": "Gather raw data from databases, APIs, sensors, web scraping, user inputs, or other sources.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Data Extraction",
+    "Task Description": "Retrieve data from structured (CSV, SQL) and unstructured (PDFs, images, text) sources.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Data Integration",
+    "Task Description": "Merge data from multiple sources while resolving inconsistencies.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Streaming Data Handling",
+    "Task Description": "Manage real-time ingestion from IoT devices, event-driven systems, or streaming platforms.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Batch Data Handling",
+    "Task Description": "Process large amounts of data in scheduled or on-demand batches.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Data Labeling",
+    "Task Description": "Annotate data for supervised learning tasks.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Metadata Management",
+    "Task Description": "Maintain structured metadata like source details, timestamps, schema.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Data Versioning",
+    "Task Description": "Keep track of dataset versions for reproducibility.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Schema Validation",
+    "Task Description": "Ensure incoming data matches expected formats and structures.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Data Storage Strategy",
+    "Task Description": "Decide between data lakes, warehouses, or distributed storage.",
+    "Stage": "Data Ingestion and Versioning"
+  },
+  {
+    "Task Name": "Remove Duplicates",
+    "Task Description": "Identify and remove duplicate records.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Fix Corrupt Records",
+    "Task Description": "Identify and handle corrupt records.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Handle Missing Values",
+    "Task Description": "Fill in or remove missing values.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Normalization/Scaling",
+    "Task Description": "Adjust numerical data to comparable scales.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Feature Engineering",
+    "Task Description": "Create new meaningful features from raw data.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Feature Selection",
+    "Task Description": "Keep only the most important features.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Encoding",
+    "Task Description": "Convert categorical variables into numerical form.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Handling Imbalanced Data",
+    "Task Description": "Use oversampling, undersampling, or synthetic generation.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Augmentation",
+    "Task Description": "Expand datasets with transformations.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Transformation",
+    "Task Description": "Change data types, parse timestamps, apply transformations.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Anonymization and Privacy Handling",
+    "Task Description": "Mask sensitive data while keeping it usable.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Splitting",
+    "Task Description": "Divide into training, validation, and test sets.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Outlier Detection and Treatment",
+    "Task Description": "Identify and handle anomalies.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Data Quality Checks",
+    "Task Description": "Ensure quality and consistency.",
+    "Stage": "Data Preprocessing"
+  },
+  {
+    "Task Name": "Model Selection",
+    "Task Description": "Choose the best algorithm for the task.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Defining Loss Functions and Optimizers",
+    "Task Description": "Select appropriate loss and optimization methods.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Hyperparameter Initialization",
+    "Task Description": "Set default values for learning rate, batch size, etc.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Data Pipeline Optimization",
+    "Task Description": "Improve efficiency in data loading and preprocessing.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Model Training",
+    "Task Description": "Train the selected model.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Hyperparameter Optimization",
+    "Task Description": "Tune model parameters via search methods.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Cross-validation",
+    "Task Description": "Test model generalization with multiple splits.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Regularization Techniques",
+    "Task Description": "Use dropout, L1/L2, or batch normalization.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Parallelization and Distributed Training",
+    "Task Description": "Use GPUs, TPUs, or clusters for speed.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Handling Class Imbalances",
+    "Task Description": "Adjust weights or apply cost-sensitive methods.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Explainability Features",
+    "Task Description": "Add interpretability to understand decisions.",
+    "Stage": "Model Training and Tuning"
+  },
+  {
+    "Task Name": "Performance Metric Calculation",
+    "Task Description": "Compute metrics like accuracy, F1, RMSE.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Confusion Matrix Analysis",
+    "Task Description": "Analyze classification errors.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Precision-Recall and ROC Curve Analysis",
+    "Task Description": "Measure trade-offs between precision and recall.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Error Analysis",
+    "Task Description": "Find patterns in wrong predictions.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Bias and Fairness Testing",
+    "Task Description": "Detect and mitigate bias.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Interpretability Analysis",
+    "Task Description": "Use SHAP, LIME, feature importance.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Benchmarking Against Baselines",
+    "Task Description": "Compare with baselines or industry standards.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Model A/B Testing",
+    "Task Description": "Test feature impact on performance.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Uncertainty Estimation",
+    "Task Description": "Measure prediction confidence.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Cross-Validation",
+    "Task Description": "Assess performance with repeated validation.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Model Validation",
+    "Task Description": "Check generalization on validation set.",
+    "Stage": "Model Evaluation"
+  },
+  {
+    "Task Name": "Model Serialization",
+    "Task Description": "Save model in deployable format.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Experiment Tracking",
+    "Task Description": "Log parameters, metrics, configs.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Model Hashing",
+    "Task Description": "Generate unique IDs for models.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Model Registry Management",
+    "Task Description": "Store models in version control.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Deployment Compatibility Testing",
+    "Task Description": "Verify environment compatibility.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Version Comparison",
+    "Task Description": "Compare new and old versions.",
+    "Stage": "Model Versioning"
+  },
+  {
+    "Task Name": "Infrastructure Setup",
+    "Task Description": "Choose deployment platforms.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Containerization",
+    "Task Description": "Use Docker/Kubernetes for deployment.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "API Integration",
+    "Task Description": "Build APIs to serve predictions.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Serverless Deployment",
+    "Task Description": "Use Lambda, Cloud Functions, etc.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Scalability Planning",
+    "Task Description": "Add load balancing and autoscaling.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Security Measures",
+    "Task Description": "Add authentication and encryption.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Deployment A/B Testing",
+    "Task Description": "Deploy multiple models for comparison.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Latency Optimization",
+    "Task Description": "Reduce inference time.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "Task Description": "Automate deployment pipeline.",
+    "Stage": "Model Deployment"
+  },
+  {
+    "Task Name": "Performance Monitoring",
+    "Task Description": "Track accuracy, latency, throughput.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Data Drift Detection",
+    "Task Description": "Identify input distribution changes.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Concept Drift Detection",
+    "Task Description": "Detect changes in feature-label relation.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Model Retraining Scheduling",
+    "Task Description": "Automate retraining triggers.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Anomaly Detection",
+    "Task Description": "Flag unusual predictions or behavior.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Logging and Debugging",
+    "Task Description": "Keep logs for debugging.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Incident Response Planning",
+    "Task Description": "Plan for failures and security threats.",
+    "Stage": "Monitoring and Maintenance"
+  },
+  {
+    "Task Name": "Resource Monitoring",
+    "Task Description": "Track CPU, memory, storage usage.",
+    "Stage": "Monitoring and Maintenance"
+  }
+]

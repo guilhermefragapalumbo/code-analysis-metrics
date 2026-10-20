@@ -1,0 +1,99 @@
+[
+  {
+    "Task Name": "Cross-validation",
+    "Compliance Check": "Model Generalization Testing",
+    "Mean Score": 2.5,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Data Pipeline Optimization",
+    "Compliance Check": "Training Data Pipeline Efficiency",
+    "Mean Score": 3,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Defining Loss Functions and Optimizers",
+    "Compliance Check": "Loss Function & Optimizer Selection",
+    "Mean Score": 2,
+    "Count": 1,
+    "Sources": [
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Explainability Features",
+    "Compliance Check": "Model Interpretability Tools",
+    "Mean Score": 1,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Hyperparameter Initialization",
+    "Compliance Check": "Default Hyperparameter Setup",
+    "Mean Score": 2,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Hyperparameter Optimization",
+    "Compliance Check": "Automated Hyperparameter Tuning",
+    "Mean Score": 1,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Model Selection",
+    "Compliance Check": "Algorithm Choice Implementation",
+    "Mean Score": 2.5,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Model Training",
+    "Compliance Check": "Training Process Implementation",
+    "Mean Score": 4.5,
+    "Count": 2,
+    "Sources": [
+      "Script1_TPRecurso_G4\\model_training_and_tuning.json",
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Parallelization and Distributed Training",
+    "Compliance Check": "Scalable Training Implementation",
+    "Mean Score": 1,
+    "Count": 1,
+    "Sources": [
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  },
+  {
+    "Task Name": "Regularization Techniques",
+    "Compliance Check": "Overfitting Prevention Methods",
+    "Mean Score": 1,
+    "Count": 1,
+    "Sources": [
+      "Script2_TPRecurso_G4\\model_training_and_tuning.json"
+    ]
+  }
+]
