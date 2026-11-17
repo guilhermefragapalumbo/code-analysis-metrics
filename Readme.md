@@ -31,7 +31,7 @@ cd "(6) preliminary_validation/analysis"
 python reproduce.py
 ```
 
-This recomputes the article's Tables 3–6 from the archived LLM outputs and writes a cell-by-cell comparison to
+This recomputes the article's Tables 5–8 from the archived LLM outputs and writes a cell-by-cell comparison to
 `output/REPRODUCIBILITY_REPORT.md`. The evaluation protocol (model, parameters, prompts, parsing) is documented in
 [`(6) preliminary_validation/README.md`](<./(6)%20preliminary_validation/README.md>).
 
