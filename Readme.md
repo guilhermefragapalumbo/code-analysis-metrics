@@ -117,9 +117,12 @@ Coverage: this version of the mapping covers 21 of the 23 ethical elements. *Acc
 
 ## (5) Metrics Creation
 
+
 Metrics aggregate the 0–5 compliance-check scores according to a defined rule (mean, weighted mean, minimum, median,
 proportion above a threshold, dispersion and others). 41 metrics are defined and implemented in code; the preliminary
-validation reports 23 of them (Tables 4 and 6).
+validation reports 23 of them (Tables 6 and 8).
+Candidate metric definitions were drafted with GPT-5.3 and then reviewed, selected and refined by the authors. 
+The compliance assessments in `(6) preliminary_validation` were run with GPT-4 (see section 1.1 of that folder's README).
 
 Example:
 
